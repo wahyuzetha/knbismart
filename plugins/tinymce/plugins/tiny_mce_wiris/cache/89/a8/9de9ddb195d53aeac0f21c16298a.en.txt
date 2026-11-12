@@ -1,0 +1,1 @@
+{"result":{"text":"display style text SHU A end text equals 0 comma 1 cross times 30.000.000 equals R p 3.000.000"},"status":"ok"}

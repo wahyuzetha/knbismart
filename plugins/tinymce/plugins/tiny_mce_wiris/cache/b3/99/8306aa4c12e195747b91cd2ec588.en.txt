@@ -1,0 +1,1 @@
+{"result":{"text":"left parenthesis negative 1 fourth square root of 3 space comma space 3 right parenthesis"},"status":"ok"}

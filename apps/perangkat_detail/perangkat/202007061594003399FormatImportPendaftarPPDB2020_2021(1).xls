@@ -1,0 +1,158 @@
+
+<table border="1" cellpadding="0" cellspacing="0" width="auto">
+  <tr>
+    <td height="20" width="64">NO</td>
+    <td height="20" width="200px">Nama Lengkap</td>
+    <td width="64">Jenis Kelamin</td>
+    <td width="64">Nis</td>
+    <td width="64">Nisn</td>
+    <td width="64">Nik</td>
+    <td width="64">No Kk</td>
+    <td width="64">Tempat Lahir</td>
+    <td width="64">Tanggal Lahir</td>
+    <td width="64">No Registasi Akta Lahir</td>
+    <td width="64">Agama</td>
+    <td width="64">Kewarganegaraan</td>
+    <td width="64">Berkebutuhan Khusus</td>
+    <td width="64">Alamat Jalan</td>
+    <td width="64">Rt</td>
+    <td width="64">Rw</td>
+    <td width="64">Nama Dusun</td>
+    <td width="64">Nama Kelurahan Desa</td>
+    <td width="64">Kecamatan</td>
+    <td width="64">Kode Pos</td>
+    <td width="64">Lintang</td>
+    <td width="64">Bujur</td>
+    <td width="64">Tempat Tinggal</td>
+    <td width="64">Moda Transportasi</td>
+    <td width="64">Anak Keberapa</td>
+    <td width="64">Apakah Punya Kip</td>
+    <td width="64">Nama Ayah Kandung</td>
+    <td width="64">Nik Ayah</td>
+    <td width="64">Tahun Lahir Ayah</td>
+    <td width="64">Pendidikan Ayah</td>
+    <td width="64">Pekerjaan Ayah</td>
+    <td width="64">Penghasilan Bulanan Ayah</td>
+    <td width="64">Bekebutuhan Khusus Ayah</td>
+    <td width="64">Nama Ibu</td>
+    <td width="64">Nik Ibu</td>
+    <td width="64">Tahun Lahir Ibu</td>
+    <td width="64">Pendidikan Ibu</td>
+    <td width="64">Pekerjaan Ibu</td>
+    <td width="64">Penghasilan Bulanan Ibu</td>
+    <td width="64">Bekebutuhan Khusus Ibu</td>
+    <td width="64">Nama Wali</td>
+    <td width="64">Nik Wali Wali</td>
+    <td width="64">Tahun Lahir Wali</td>
+    <td width="64">Pendidikan Wali</td>
+    <td width="64">Pekerjaan Wali</td>
+    <td width="64">Penghasilan Bulanan Wali</td>
+    <td width="64">Nomor Telepon Rumah</td>
+    <td width="64">Nomor Hp</td>
+    <td width="64">Email</td>
+    <td width="64">Tinggi Badan</td>
+    <td width="64">Berat Badan</td>
+    <td width="64">Lingkar Kepala</td>
+    <td width="64">Jarak Tempat Tinggal Ke Sekolah</td>
+    <td width="64">Waktu Tempuh Ke Sekolah</td>
+    <td width="64">Jumlah Saudara Kandung</td>
+    <td width="64">Jenis Kesejahteraan</td>
+    <td width="64">No Kartu</td>
+    <td width="64">Nama Kartu</td>
+    <td width="64">Kompetensi Keahlian</td>
+    <td width="64">Jenis Pendaftaran</td>
+    <td width="64">Tanggal Masuk Sekolah</td>
+    <td width="64">Sekolah Asal</td>
+    <td width="64">Nomor Peserta Un Smpmts</td>
+    <td width="64">No Seri Ijazah Smpmts</td>
+    <td width="64">No Skhun Smpmts</td>
+    <td width="64">Nodaftar</td>
+    <td width="64">Tanggal Daftar</td>
+    <td width="64">Kabupaten</td>
+    <td width="64">Provinsi</td>
+    <td width="64">Diterima</td>
+    <td width="64">Password</td>
+
+  </tr>
+
+  <tr>
+    <td></td>
+
+    <td></td>
+<td>        1 = Laki-Laki<br>2 = Perempuan<br></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td> 1 = Islam<br>2 = Kristen Protestan<br>3 = Katolik<br>4 = Hindu<br>5 = Budha<br>6 = Khong Hu Cu<br>7 = Kepercayaan Kepada Tuhan YME<br>8 = Lain-lain<br></td>
+<td></td>
+<td>1 = Tidak<br>2 = Netra (A)<br>3 = Rungu (B)<br>4 = Grahita Ringan (C)<br>5 = Grahita Sedang (C1)<br>6 = Daksa Ringan (D)<br>7 = Daksa Sedang (D1)<br>8 = Laras (E)<br>9 = Wicara (F)<br>10 = Tuna Ganda (F)<br>11 = Hiperaktif (H)<br>12 = Cerdas Istimewa (I)<br>13 = Bakat Istimewa (J)<br>14 = Kesulitan Belajar (K)<br>15 = Narkoba (N)<br>16 = Indigo (O)<br>17 = Down Sindrome (P)<br>18 = Autis (Q)<br>19 = Terpencil / Terbelakang(Bencana alam/sosila)<br>20 = Tidak mampu ekonomi<br></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1 = Jalan Kaki<br>2 = Kendaraan Pribadi<br>3 = Kendaraan Umum/angkot/Pete-pete<br>4 = Jemputan Sekolah<br>5 = Kereta Api<br>6 = Ojek<br>7 = Andong/Bendi/Sado/Dokar/Delman/Beca<br>8 = Perahu Penyeberangan/Rakit/Getek<br>9 = Lainya<br></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1 = Tidak Sekolah<br>2 = Putus SD<br>3 = SD Sederajat<br>4 = SMP Sederajat<br>5 = SMA Sederajat<br>6 = D1<br>7 = D2<br>8 = D3<br>9 = D4/S1<br>10 = S2<br>11 = S3<br></td>
+<td>1 = Kurang dari 1.000.000<br>2 = 1.000.000 - 2.000.000<br>3 = Labih dari 3.000.000<br></td>
+					
+<td>1 = Kurang dari 1.000.000<br>2 = 1.000.000 - 2.000.000<br>3 = Labih dari 3.000.000<br></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>
+1 = Kurang dari 1 KM<br>2 = Lebih dari 1 KM<br></td>
+<td></td>
+<td></td>
+<td>1 = PKH<br>2 = PIP<br>3 = Kartu Perlindungan Sosial<br>4 = Kartu Keluarga Sejahtera<br>5 = Kartu Kesehatan<br></td>
+<td></td>
+<td></td>
+<td>34 = TEKNIK PEMESINAN<br>35 = TEKNIK BISNIS SEPEDA MOTOR<br>36 = TEKNIK KENDARAAN RINGAN OTOMOTIF<br>37 = DESAIN PEMODELAN DAN INFORMASI BANGUNAN<br>40 = REKAYASA PERANGKAT LUNAK<br>45 = TEKNIK MEKANIK INDUSTRI<br></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>format YYYY-MM-DD</td>
+<td></td>
+<td></td>
+<td></td>
+<td> </td>
+
+  </tr>
+
+</table>
+</body>
+</html>

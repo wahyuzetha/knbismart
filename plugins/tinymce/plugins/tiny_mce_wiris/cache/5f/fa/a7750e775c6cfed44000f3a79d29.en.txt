@@ -1,0 +1,1 @@
+{"result":{"text":"left parenthesis 5 square root of 2 comma space 30 degree right parenthesis"},"status":"ok"}

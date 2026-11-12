@@ -1,0 +1,1 @@
+{"result":{"text":"p minus q equals cos space A"},"status":"ok"}

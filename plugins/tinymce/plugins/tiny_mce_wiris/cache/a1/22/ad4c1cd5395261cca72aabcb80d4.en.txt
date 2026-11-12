@@ -1,0 +1,1 @@
+{"result":{"text":"cos space space 75 degree equals"},"status":"ok"}

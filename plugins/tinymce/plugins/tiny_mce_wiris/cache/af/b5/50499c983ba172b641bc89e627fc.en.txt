@@ -1,0 +1,1 @@
+{"result":{"text":"sin space left parenthesis alpha minus beta right parenthesis"},"status":"ok"}

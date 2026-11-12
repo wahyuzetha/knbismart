@@ -1,0 +1,1 @@
+{"result":{"text":"negative 4 over 3 square root of 5 minus x cubed end root plus C"},"status":"ok"}

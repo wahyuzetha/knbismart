@@ -1,0 +1,1 @@
+{"result":{"text":"left parenthesis P minus P subscript 1 right parenthesis divided by left parenthesis P subscript 2 minus P subscript 1 right parenthesis equals left parenthesis Q minus Q subscript 1 right parenthesis divided by left parenthesis Q subscript 2 minus Q subscript 1 right parenthesis"},"status":"ok"}

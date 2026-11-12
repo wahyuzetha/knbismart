@@ -1,0 +1,1 @@
+{"result":{"text":"display style B equals P cross times i cross times t"},"status":"ok"}

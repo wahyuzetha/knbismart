@@ -1,0 +1,1 @@
+{"result":{"text":"begin display style E subscript s end subscript equals not stretchy vertical line 10000 over 5 cross times fraction numerator 8 minus 5 over denominator 15000 minus 10000 end fraction not stretchy vertical line end style"},"status":"ok"}

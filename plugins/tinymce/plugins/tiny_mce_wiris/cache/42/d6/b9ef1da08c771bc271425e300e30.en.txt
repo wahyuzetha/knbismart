@@ -1,0 +1,1 @@
+{"result":{"text":"display style text bold Jumlah end text text end text text bold permutasi end text text end text text bold siklis end text text end text text bold dari end text text end text n text  objek end text equals not stretchy left parenthesis n minus 1 not stretchy right parenthesis not stretchy factorial"},"status":"ok"}

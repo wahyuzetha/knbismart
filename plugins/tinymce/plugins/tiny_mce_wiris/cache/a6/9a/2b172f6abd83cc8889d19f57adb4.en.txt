@@ -1,0 +1,1 @@
+{"result":{"text":"integral left parenthesis 9 x squared minus 12 x plus 4 right parenthesis space d x space equals space......."},"status":"ok"}

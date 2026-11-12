@@ -1,0 +1,1 @@
+{"result":{"text":"integral subscript 1 superscript a left parenthesis 2 x plus 5 right parenthesis d x space equals space 18 comma space n i l a i space a space a d a l a h space....."},"status":"ok"}

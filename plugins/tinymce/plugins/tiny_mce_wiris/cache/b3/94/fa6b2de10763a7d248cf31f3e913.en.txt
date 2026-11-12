@@ -1,0 +1,1 @@
+{"result":{"text":"1 fourth x to the power of 4 minus 1 half x squared plus 2 x plus C"},"status":"ok"}

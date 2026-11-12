@@ -1,0 +1,1 @@
+{"result":{"text":"display style A equals 1.000.000 plus 120.000 equals R p 1.120.000"},"status":"ok"}

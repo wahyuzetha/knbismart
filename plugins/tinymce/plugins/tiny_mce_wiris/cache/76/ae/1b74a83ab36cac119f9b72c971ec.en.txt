@@ -1,0 +1,1 @@
+{"result":{"text":"E d equals left square bracket negative 5 divided by 35 right square bracket divided by left square bracket 2.000 divided by 22.000 right square bracket"},"status":"ok"}

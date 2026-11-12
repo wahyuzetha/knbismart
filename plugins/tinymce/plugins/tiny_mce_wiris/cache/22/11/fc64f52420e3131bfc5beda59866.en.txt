@@ -1,0 +1,1 @@
+{"result":{"text":"display style text SHU A end text equals fraction numerator 10.000.000 over denominator 100.000.000 end fraction cross times 30.000.000"},"status":"ok"}

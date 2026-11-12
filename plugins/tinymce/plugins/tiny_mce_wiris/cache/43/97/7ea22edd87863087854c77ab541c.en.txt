@@ -1,0 +1,1 @@
+{"result":{"text":"40 left parenthesis P minus 100.000 right parenthesis equals 50.000 left parenthesis Q minus 80 right parenthesis"},"status":"ok"}

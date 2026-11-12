@@ -1,0 +1,1 @@
+{"result":{"text":"R p 150.000 minus R p 22.500 equals R p 127.500"},"status":"ok"}

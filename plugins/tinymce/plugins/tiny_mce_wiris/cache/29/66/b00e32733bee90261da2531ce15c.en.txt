@@ -1,0 +1,1 @@
+{"result":{"text":"open parentheses table row cell 4 to the power of x plus 2 y end exponent end cell 0 row 2 cell 3 x minus 2 end cell end table close parentheses equals open parentheses table row 8 0 row 2 7 end table close parentheses"},"status":"ok"}

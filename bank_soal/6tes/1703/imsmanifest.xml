@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest identifier='man01'>
+	<organization default='toc01'>
+		<tableofcontents identifier='toc01'/>
+	</organization>
+	<resources>
+		<resource baseurl='res00000' identifier='res00000' type='assessment/x-bb-pool' file='res00000.dat'>
+			<file href='ppg/examview/level_1/mc006-1.jpg'/>
+			<file href='ppg/examview/level_1/mc006-2.jpg'/>
+			<file href='ppg/examview/level_1/mc007-1.jpg'/>
+			<file href='ppg/examview/level_1/mc007-2.jpg'/>
+			<file href='ppg/examview/level_1/mr007-1.jpg'/>
+			<file href='ppg/examview/level_1/mr008-1.jpg'/>
+		</resource>
+	</resources>
+</manifest>

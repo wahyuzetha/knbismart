@@ -1,0 +1,1 @@
+{"result":{"text":"text Bagi Hasil end text equals text Total Pendapatan end text cross times text Nisbah Nasabah end text"},"status":"ok"}

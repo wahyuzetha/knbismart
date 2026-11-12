@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<timetable ascttversion="2026.7.1" importtype="database" options="export:idprefix:%CHRID,import:idprefix:%TEMPID,groupstype1,decimalseparatordot,lessonsincludeclasseswithoutstudents,handlestudentsafterlessons" defaultexport="1" displayname="aSc Timetables 2012 XML" displaycountries="">
+   <periods options="canadd,export:silent" columns="period,name,short,starttime,endtime">
+      <period name="1" short="1" period="1" starttime="6:55" endtime="7:40"/>
+      <period name="2" short="2" period="2" starttime="7:40" endtime="8:20"/>
+      <period name="3" short="3" period="3" starttime="8:20" endtime="9:00"/>
+      <period name="4" short="4" period="4" starttime="9:00" endtime="9:40"/>
+      <period name="5" short="5" period="5" starttime="9:55" endtime="10:35"/>
+      <period name="6" short="6" period="6" starttime="10:35" endtime="11:15"/>
+      <period name="7" short="7" period="7" starttime="11:15" endtime="11:55"/>
+      <period name="8" short="8" period="8" starttime="12:20" endtime="13:00"/>
+      <period name="9" short="9" period="9" starttime="13:00" endtime="13:40"/>
+      <period name="10" short="10" period="10" starttime="13:40" endtime="14:20"/>
+      <period name="11" short="11" period="11" starttime="14:20" endtime="15:00"/>
+      <period name="12" short="12" period="12" starttime="15:00" endtime="15:35"/>
+   </periods>
+   <breaks options="canadd,export:silent" columns="break,name,short,starttime,endtime"/>
+   <daysdefs options="canadd,export:silent" columns="id,days,name,short">
+      <daysdef id="312C79A4A3569B0E" name="Any day" short="X" days="10000,01000,00100,00010,00001"/>
+      <daysdef id="E9CB5CA8F65CBB4C" name="Every day" short="E" days="11111"/>
+      <daysdef id="9C9A098E67C2EA55" name="Senin" short="Se" days="10000"/>
+      <daysdef id="597F7AC14C996FAD" name="Selasa" short="SE" days="01000"/>
+      <daysdef id="3ED7A0646BF92886" name="Rabu" short="Ra" days="00100"/>
+      <daysdef id="80CB62906FE74D90" name="Kamis" short="Ka" days="00010"/>
+      <daysdef id="0002971F3AF96D42" name="Jum'at" short="Ju" days="00001"/>
+   </daysdefs>
+   <weeksdefs options="canadd,export:silent" columns="id,weeks,name,short">
+      <weeksdef id="1473D73A7CC868CE" name="All weeks" short="All" weeks="1"/>
+   </weeksdefs>
+   <termsdefs options="canadd,export:silent" columns="id,terms,name,short">
+      <termsdef id="7CE0416B561F04E0" name="Whole year" short="YR" terms="1"/>
+   </termsdefs>
+   <subjects options="canadd,export:silent" columns="id,name,short,partner_id">
+      <subject id="03389D3D3885D7C4" name="Pendidikan Agama dan Budi Pekerti" short="PABP" partner_id=""/>
+      <subject id="C8B4798F17836175" name="Ke NU an" short="NU" partner_id=""/>
+      <subject id="C5279E9878A56157" name="Pendidikan Pancasila " short="Pancasila" partner_id=""/>
+      <subject id="38DF1DE0EE984C3A" name="Bahasa Indonesia" short="BSI" partner_id=""/>
+      <subject id="11A19CB424711C1F" name="Matematika" short="Mat" partner_id=""/>
+      <subject id="45C0BBBD5B683592" name="Bahasa Inggris" short="BIngg" partner_id=""/>
+      <subject id="3EF560EE47E442E7" name="Seni Budaya" short="Seni" partner_id=""/>
+      <subject id="0855BA6EB964A223" name="Penjas Olah Raga danKesehatan" short="PJOK" partner_id=""/>
+      <subject id="D0195613C57C5120" name="Sejarah Indonesia" short="SI" partner_id=""/>
+      <subject id="0F5FE7E6AE297120" name="Bahasa Jawa" short="Jawa" partner_id=""/>
+      <subject id="EBD0EB7B3C63CBDC" name="BP / BK/ WK" short="BP" partner_id=""/>
+      <subject id="9D48366E435873F0" name="Project IPAS" short="IPAS" partner_id=""/>
+      <subject id="D69152820FB22425" name="Dasar Otomotif 1" short="DTO1" partner_id=""/>
+      <subject id="3CCE1DA663233DD5" name=" Dasar Otomotif 2" short="DTO2" partner_id=""/>
+      <subject id="673D27A43B5A71DA" name="Dasar Otomotif 3" short="DTO3" partner_id=""/>
+      <subject id="6C1E902191F2160D" name="Informatika" short="TIK" partner_id=""/>
+      <subject id="698AD50A1673A808" name="Dasar TJKT 1" short="DsTJKT1" partner_id=""/>
+      <subject id="E86FAEBA314B30E2" name="Dasar TJKT 2" short="DsTJKT2" partner_id=""/>
+      <subject id="A788D42F75DB7FDE" name="Dasar TJKT 3" short="DsTJKT3" partner_id=""/>
+      <subject id="3332D39C1F35D0AF" name="Dasar AKL 1" short="DsAKL1" partner_id=""/>
+      <subject id="D4450636E2AB3A14" name="Dasar AKL 2" short="DsAKL2" partner_id=""/>
+      <subject id="24C9AC3AEC071C96" name="Dasar AKL 3" short="DsAKL3" partner_id=""/>
+      <subject id="6D9F928DA2251132" name="Tata Busana" short="Tata Busana" partner_id=""/>
+      <subject id="FB3A4505B5ED82E0" name="Pendidikan Pancasila" short="Pancasila" partner_id=""/>
+      <subject id="BB5DBBDEE6CDA5A2" name="MapilTKR" short="PilTKR" partner_id=""/>
+      <subject id="7367ED7A2ED89758" name="MapilTKJT" short="PilTKJT" partner_id=""/>
+      <subject id="FB636BC9DD315DCA" name="MapilTBKR" short="PilTBKR" partner_id=""/>
+      <subject id="6AA588F769D15890" name="MapilTSM" short="PilTSM" partner_id=""/>
+      <subject id="186038D788EC0CD2" name="MapilAKL" short="PilAKL" partner_id=""/>
+      <subject id="23578C299ADE80A2" name="Teknik Kendaraan Ringan1" short="TKR1(L)" partner_id=""/>
+      <subject id="371AF3D61160BF6E" name="Teknik Kendaraan Ringan 2" short="TKR2(M)" partner_id=""/>
+      <subject id="D5761548C18D2E5B" name="Teknik Kendaraan Ringan 3" short="TKR3(Cs)" partner_id=""/>
+      <subject id="2E19B28D6FF5CED4" name="Teknik Sepeda Motor 1" short="TSM1(L)" partner_id=""/>
+      <subject id="176A122131B9545F" name="Teknik Sepeda Motor 2" short="TSM2(M)" partner_id=""/>
+      <subject id="4C95EA6F2692A214" name="Teknik Sepeda Motor 3" short="TSM3(Cs)" partner_id=""/>
+      <subject id="C65FD69166F0C149" name="Teknik Bodi Kendaraan Ringan 1" short="TBKR1" partner_id=""/>
+      <subject id="292EB6955004248B" name="Teknik Bodi Kendaraan Ringan 2" short="TBKR2" partner_id=""/>
+      <subject id="6FAA00220D0E2943" name="Layanan Perbankan Syariah 1" short="LPS1" partner_id=""/>
+      <subject id="40A9785DACDD5EA4" name="Layanan Perbankan Syariah 2" short="LPS2" partner_id=""/>
+      <subject id="B0C10AB976708DAD" name="Layanan Perbankan Syariah 3" short="LPS3" partner_id=""/>
+      <subject id="E1E7FA9740330941" name="Layanan Perbankan Syariah 4" short="LPS4" partner_id=""/>
+      <subject id="A9C8DCCED79893E2" name="Layanan Perbankan Syariah 5" short="LPS5(APS)" partner_id=""/>
+      <subject id="1C6C38524FF5A272" name="Layanan Perbankan Syariah 6" short="LPS6(KA)" partner_id=""/>
+      <subject id="4410BBB22721E7CA" name="Teknik Komputer dan Jaringan 1" short="TKJ1" partner_id=""/>
+      <subject id="0738F55660D8E6E4" name="Teknik Komputer dan Jaringan 2" short="TKJ2" partner_id=""/>
+      <subject id="BB948DD6F789C7D8" name="Teknik Komputer dan Jaringan 3" short="TKJ3" partner_id=""/>
+      <subject id="5E6E69278BCB655C" name="Projek Kreatif dan Kewirausahaan" short="P&amp;KWu" partner_id=""/>
+      <subject id="C57106886A0F5F39" name="Pendidikan Agama dan Budi Pekerti Plus" short="PABPP" partner_id=""/>
+      <subject id="831FAC427CA61E5C" name="Bahasa Indonesia Plus" short="BSIP" partner_id=""/>
+      <subject id="5E1F217B8AECE41E" name="Bahasa Inggris Plus" short="BInggP" partner_id=""/>
+      <subject id="D0E16B4A7E4AA5DB" name="Penjas Olahraga dan Kesehatan Plus" short="PJOKP" partner_id=""/>
+      <subject id="A3AFAAB658076CF1" name="Project Ipas Plus" short="IPASP" partner_id=""/>
+      <subject id="9E28103FEC7E70E3" name="Informatika Plus" short="TIKP" partner_id=""/>
+      <subject id="82E8F2D3594B6B44" name="Matematika Plus" short="MatP" partner_id=""/>
+      <subject id="01DB270C1EF07ED6" name="Dasar Otomotif ! Plus" short="DTO1P" partner_id=""/>
+      <subject id="01EB4830FD56E94F" name="Dasar Otomotif 2 Plus" short="DTO2P" partner_id=""/>
+      <subject id="D46A5138ED4F3421" name="Dasar Otomotif 3 Plus" short="DTO3P" partner_id=""/>
+      <subject id="07B73C9DB92E4C03" name="Projek Kreatif dan Kewirausahaan Plus" short="P&amp;KWuP" partner_id=""/>
+      <subject id="65297B7160FCF569" name="MapilTBKRPlus" short="PilTBKRP" partner_id=""/>
+      <subject id="527D49B1F19B661B" name="Teknik Kendaraan Ringan 1 Plus" short="TKR1P" partner_id=""/>
+      <subject id="CB59D25177915420" name="Teknik Kendaraan Ringan 2 Plus" short="TKR2P" partner_id=""/>
+      <subject id="AA0482A591109C09" name="Teknik Kendaraan Ringan 3 Plus" short="TKR3P" partner_id=""/>
+      <subject id="6E0DB26C269EEB77" name="Teknik Sepeda Motor 2  Plus" short="TSM2P" partner_id=""/>
+      <subject id="4A20E549B6D6E443" name="Teknik Sepeda Motor 3 Plus" short="TSM3P" partner_id=""/>
+      <subject id="F47C4222D86E89EB" name="Teknik Komputer dan Jaringan 2 Plus" short="TKJ2P" partner_id=""/>
+   </subjects>
+   <teachers options="canadd,export:silent" columns="id,name,short,gender,color,email,mobile,partner_id,firstname,lastname">
+      <teacher id="BE4BB97318ADC230" firstname="" lastname="NUR WAKHID ROMDHONI S.E" name="NUR WAKHID ROMDHONI S.E" short="nur@knbismart.com" gender="F" color="#0000FF" email="" mobile="" partner_id=""/>
+      <teacher id="4DDD3AF7EEEF438A" firstname="SPd" lastname="SARBIYANTO," name="SARBIYANTO, SPd" short="sarbiyanto@knbismart.com" gender="M" color="#FF0000" email="" mobile="" partner_id=""/>
+      <teacher id="1A6379D776181975" firstname="RUSDI" lastname="Drs" name="Drs RUSDI" short="rusdi@knbismart.com" gender="M" color="#0000FF" email="" mobile="" partner_id=""/>
+      <teacher id="BEEB0F9426B2F6E3" firstname="SUWANDI" lastname="Drs." name="Drs. SUWANDI" short="suwandi@knbismart.com" gender="M" color="#669900" email="" mobile="" partner_id=""/>
+      <teacher id="949791141EAC38E7" firstname="WAGIMAN" lastname="Drs" name="Drs WAGIMAN" short="wagiman@knbismart.com" gender="M" color="#FFCCFF" email="" mobile="" partner_id=""/>
+      <teacher id="FB123F8A120A278E" firstname="H, SPd" lastname="MAHMUDAH" name="MAHMUDAH H, SPd" short="harjanti@knbismart.com" gender="F" color="#FFCC66" email="" mobile="" partner_id=""/>
+      <teacher id="0412CD4655C04B31" firstname="MULYONO, ST" lastname="JOKO" name="JOKO MULYONO, ST" short="mulyono@knbismart.com" gender="M" color="#FFFF66" email="" mobile="" partner_id=""/>
+      <teacher id="093210872ECAD3A5" firstname="" lastname="ASTANTA" name="ASTANTA" short="astanta@knbismart.com" gender="M" color="#993333" email="" mobile="" partner_id=""/>
+      <teacher id="A3AC345123A7FD5F" firstname="ST" lastname="ROHADI," name="ROHADI, ST" short="rohadi@knbismart.com" gender="M" color="#00CCFF" email="" mobile="" partner_id=""/>
+      <teacher id="BF81E4A0A7773F5C" firstname="NIKMATUL H SAg" lastname="SRI" name="SRI NIKMATUL H SAg" short="nimatul@knbismart.com" gender="F" color="#FFFFFF" email="" mobile="" partner_id=""/>
+      <teacher id="A7E95603D3614CBC" firstname="MUMPUNI, SSi" lastname="SRI" name="SRI MUMPUNI, SSi" short="mumpuni@knbismart.com" gender="F" color="#3333FF" email="" mobile="" partner_id=""/>
+      <teacher id="F0EEF157DD0CE5A5" firstname="" lastname="SUPARTO" name="SUPARTO" short="suparto@knbismart.com" gender="M" color="#B4B4B4" email="" mobile="" partner_id=""/>
+      <teacher id="9ECA19ECE4EA8609" firstname=" APRIYANTO, ST" lastname="JOKO" name="JOKO  APRIYANTO, ST" short="apriyanto@knbismart.com" gender="M" color="#CC6600" email="" mobile="" partner_id=""/>
+      <teacher id="32CC0853EED0A9FB" firstname="LAVIATI, SPd" lastname="ANISA" name="ANISA LAVIATI, SPd" short="laviati@knbismart.com" gender="F" color="#00FF80" email="" mobile="" partner_id=""/>
+      <teacher id="C26BAA391A11CD6B" firstname="SUBIYANTI, SPd" lastname="YAYUK" name="YAYUK SUBIYANTI, SPd" short="yayuk@knbismart.com" gender="F" color="#FFC0C0" email="" mobile="" partner_id=""/>
+      <teacher id="0E1029274720D982" firstname="ST" lastname="SUPARMAN," name="SUPARMAN, ST" short="suparman@knbismart.com" gender="M" color="#DDFF97" email="" mobile="" partner_id=""/>
+      <teacher id="EA8122546B0CEB60" firstname="MULYANI, SPd" lastname="TRI" name="TRI MULYANI, SPd" short="mulyani@knbismart.com" gender="F" color="#00FFFF" email="" mobile="" partner_id=""/>
+      <teacher id="AECE4737F388E841" firstname="Barto H, ST" lastname="Rusmawan" name="Rusmawan Barto H, ST" short="rusmawan@knbismart.com" gender="M" color="#8000FF" email="" mobile="" partner_id=""/>
+      <teacher id="F4A17377128282C7" firstname="AMBARSARI,S.Pd" lastname="ANITA" name="ANITA AMBARSARI,S.Pd" short="anita@knbismart.com" gender="F" color="#FF00FF" email="" mobile="" partner_id=""/>
+      <teacher id="3C58EDCC4C274D45" firstname="" lastname="MARYADI,S.Pd" name="MARYADI,S.Pd" short="maryadi@knbismart.com" gender="M" color="#FFFFCC" email="" mobile="" partner_id=""/>
+      <teacher id="CD8C367861411328" firstname="RAHMANI, SPd" lastname="HANIF" name="HANIF RAHMANI, SPd" short="hanif@knbismart.com" gender="F" color="#14C0C0" email="" mobile="" partner_id=""/>
+      <teacher id="7636E0520F8B1605" firstname="KARYAWATI,S.Pd" lastname="SRI" name="SRI KARYAWATI,S.Pd" short="karyawati@knbismart.com" gender="F" color="#FF8080" email="" mobile="" partner_id=""/>
+      <teacher id="1F2BC51B86CABF87" firstname="WAHYUDI, ST" lastname="SRI" name="SRI WAHYUDI, ST" short="wahyudi@knbismart.com" gender="M" color="#D8B88D" email="" mobile="" partner_id=""/>
+      <teacher id="FCD3789B1FB33ECA" firstname="QODARIYAH , SAg" lastname="SITI" name="SITI QODARIYAH , SAg" short="qodariyah@knbismart.com" gender="F" color="#FFFF00" email="" mobile="" partner_id=""/>
+      <teacher id="0B416716ED027090" firstname="" lastname="MUALIM,S.Ag" name="MUALIM,S.Ag" short="mualim@knbismart.com" gender="M" color="#009933" email="" mobile="" partner_id=""/>
+      <teacher id="F9BD1F3868EEE332" firstname="ST" lastname="SAMSUDI," name="SAMSUDI, ST" short="samsudi@knbismart.com" gender="M" color="#00C0C8" email="" mobile="" partner_id=""/>
+      <teacher id="B88EA7ACF5A7A225" firstname="Agus P,S.Pd" lastname="Nur" name="Nur Agus P,S.Pd" short="nuragus@knbismart.com" gender="M" color="#80FF80" email="" mobile="" partner_id=""/>
+      <teacher id="06F50CD2E64897B3" firstname="WALUYO, ST" lastname="BUDI" name="BUDI WALUYO, ST" short="budi@knbismart.com" gender="M" color="#FF00FF" email="" mobile="" partner_id=""/>
+      <teacher id="6E4F43D59548E6CC" firstname="Arum, S.Pd" lastname="Farah" name="Farah Arum, S.Pd" short="farah@knbismart.com" gender="F" color="#037C0A" email="" mobile="" partner_id=""/>
+      <teacher id="1D5CF85BAA43D595" firstname="Nur Shauman, Amd" lastname="M" name="M Nur Shauman, Amd" short="shauman@knbismart.com" gender="M" color="#FF9933" email="" mobile="" partner_id=""/>
+      <teacher id="470255424C2FDF13" firstname="Nita K S.Pd" lastname="Berliana" name="Berliana Nita K S.Pd" short="berliana@knbismart.com" gender="F" color="#80FFFF" email="" mobile="" partner_id=""/>
+      <teacher id="C1B4F4BE6F52DBFA" firstname="Susan Andriana, SPdI" lastname="Ulfa" name="Ulfa Susan Andriana, SPdI" short="ulfasusan@knbismart.com" gender="F" color="#993333" email="" mobile="" partner_id=""/>
+      <teacher id="B9496548A115B739" firstname="Annisaul R, SE, sy" lastname="Lilik" name="Lilik Annisaul R, SE, sy" short="lilik@knbismart.com" gender="F" color="#FF9900" email="" mobile="" partner_id=""/>
+      <teacher id="3276F973EBAB41C8" firstname="SPd" lastname="Sunarto," name="Sunarto, SPd" short="sunarto@knbismart.com" gender="M" color="#00C0FF" email="" mobile="" partner_id=""/>
+      <teacher id="6B5848ED32AE4BF8" firstname="" lastname="Adi Suryanto, SPd" name="Adi Suryanto, SPd" short="adisuryanto@knbismart.com" gender="M" color="#800080" email="" mobile="" partner_id=""/>
+      <teacher id="B62732E1FA0D0415" firstname="" lastname="Sritomi Yatun,S.Pd" name="Sritomi Yatun,S.Pd" short="sritomi@knbismart.com" gender="M" color="#00FF99" email="" mobile="" partner_id=""/>
+      <teacher id="F66727442DAFD110" firstname="" lastname="Eni Mahmudah" name="Eni Mahmudah" short="enimahmudah@knbismart.com" gender="F" color="#008080" email="" mobile="" partner_id=""/>
+      <teacher id="F6AFEF2088940E1E" firstname="" lastname="Sri Suharni, SPd" name="Sri Suharni, SPd" short="srisuharni@knbismart.com" gender="F" color="#66FF66" email="" mobile="" partner_id=""/>
+      <teacher id="32D0CE416E9465D2" firstname="" lastname="Joko Wahyudi, ST" name="Joko Wahyudi, ST" short="jokowahyudi@knbismart.com" gender="F" color="#CC00CC" email="" mobile="" partner_id=""/>
+      <teacher id="BC422343F6F4872A" firstname="Sutanto,ST" lastname="Joko" name="Joko Sutanto,ST" short="sutanto@knbismart.com" gender="M" color="#33CC33" email="" mobile="" partner_id=""/>
+      <teacher id="63CDFBD8AEA267EE" firstname="GIVAN DADANG S,SPd" lastname="" name=" GIVAN DADANG S,SPd" short="givan@knbismart.com" gender="F" color="#00C0FF" email="" mobile="" partner_id=""/>
+      <teacher id="258F8FBB0AD43748" firstname="" lastname="Ahmad Agus Wahid S.Pd" name="Ahmad Agus Wahid S.Pd" short="ahmad@knbismart.com" gender="M" color="#800080" email="" mobile="" partner_id=""/>
+      <teacher id="134B4DDD58E834B3" firstname="" lastname="Dini Erlinawati S.Pd" name="Dini Erlinawati S.Pd" short="dini@knbismart.com" gender="M" color="#6666FF" email="" mobile="" partner_id=""/>
+      <teacher id="D139AD2C3E39D9CF" firstname="" lastname="Ferry Cahyo Nugroho S.Pd" name="Ferry Cahyo Nugroho S.Pd" short="ferry@knbismart.com" gender="M" color="#7C7CCB" email="" mobile="" partner_id=""/>
+      <teacher id="CFE1B71E73A01083" firstname="Nugroho S.Kom" lastname="Wahyu" name="Wahyu Nugroho S.Kom" short="nugroho@knbismart.com" gender="M" color="#808080" email="" mobile="" partner_id=""/>
+      <teacher id="EDEE9F94A7A38F07" firstname="Soleman S.Pd" lastname="Joko" name="Joko Soleman S.Pd" short="suleman@knbismart.com" gender="F" color="#99FF66" email="" mobile="" partner_id=""/>
+      <teacher id="07A7679014408705" firstname="S.Pd" lastname="Yanto" name="Yanto S.Pd" short="yanto@knbismart.com" gender="F" color="#FF9966" email="" mobile="" partner_id=""/>
+      <teacher id="0C526F8474087F89" firstname="S.Pd" lastname="SARWAHDI" name="SARWAHDI S.Pd" short="sarwahdi@knbismart.com" gender="M" color="#C0C0C0" email="" mobile="" partner_id=""/>
+      <teacher id="B852FAAA221662E1" firstname="" lastname="NAJA NUSAIBAH S.Pd.MPd" name="NAJA NUSAIBAH S.Pd.MPd" short="nusaibah@knbismart.com" gender="F" color="#FF6666" email="" mobile="" partner_id=""/>
+      <teacher id="24F9E663F3DE4150" firstname="" lastname="Indriyanto S.Kom" name="Indriyanto S.Kom" short="indriyanto@knbismart.com" gender="F" color="#C0C000" email="" mobile="" partner_id=""/>
+      <teacher id="218450FB2BCF23E9" firstname="" lastname="Isnaini Azizah Nur Rahma A.Md" name="Isnaini Azizah Nur Rahma A.Md" short="isnaini@knbismart.com" gender="F" color="#669999" email="" mobile="" partner_id=""/>
+      <teacher id="78CF220F163399CF" firstname="" lastname="Dyah Ayu Puspitasari S.H" name="Dyah Ayu Puspitasari S.H" short="puspitasari@knbismart.com" gender="F" color="#FFC000" email="" mobile="" partner_id=""/>
+      <teacher id="4F512D7915F1AAE6" firstname="" lastname="Indi Inggrid Rinaldii S.Pd" name="Indi Inggrid Rinaldii S.Pd" short="inggrid@knbismart.com" gender="F" color="#00FF00" email="" mobile="" partner_id=""/>
+      <teacher id="57EB9D95874FCCED" firstname="" lastname="Habib Masyhuda S.T" name="Habib Masyhuda S.T" short="habib@knbismart.com" gender="F" color="#33CCCC" email="" mobile="" partner_id=""/>
+      <teacher id="94FDF6DCAFEFE39C" firstname="" lastname="Nanang Prasetyo" name="Nanang Prasetyo" short="nanang@knbismart.com" gender="F" color="#33CCCC" email="" mobile="" partner_id=""/>
+      <teacher id="EFDB2392D8CC6C3E" firstname="" lastname="Paimin" name="Paimin" short="paimin@knbismart.com" gender="F" color="#FFC030" email="" mobile="" partner_id=""/>
+      <teacher id="92980234305CA994" firstname="Widodo S.Pd" lastname="Sri" name="Sri Widodo S.Pd" short="widodo@knbismart.com" gender="M" color="#00CC00" email="" mobile="" partner_id=""/>
+      <teacher id="AEFC7FE41D5B2106" firstname="BUDIYARTO S.T" lastname="WAHYU" name="WAHYU BUDIYARTO S.T" short="budiyarto@knbismart.com" gender="M" color="#CCFFFF" email="" mobile="" partner_id=""/>
+      <teacher id="1EA1EAFF2A4DC84B" firstname="Adrian Eka Laksa S.Pd" lastname="Gardhika" name="Gardhika Adrian Eka Laksa S.Pd" short="gardhika@knbismart.com" gender="F" color="#00FF00" email="" mobile="" partner_id=""/>
+      <teacher id="93CAF4CAF22DBFEA" firstname="" lastname="Muhammad Brian Sasongko S.Sn" name="Muhammad Brian Sasongko S.Sn" short="brian@knbismart.com" gender="F" color="#FF80FF" email="" mobile="" partner_id=""/>
+      <teacher id="4B870E2C66E501AB" firstname="Luqman Setyaki S.Pd" lastname="Pascal" name="Pascal Luqman Setyaki S.Pd" short="pascal@knbismart.com" gender="M" color="#57FF57" email="" mobile="" partner_id=""/>
+      <teacher id="BBEC3F740E073349" firstname="" lastname="Muhammad Irfani S.Akun" name="Muhammad Irfani S.Akun" short="irfani@knbismart.com" gender="F" color="#FF8000" email="" mobile="" partner_id=""/>
+      <teacher id="D8CD1CD1048F7D86" firstname="JOYCE" lastname="JOYCE VIVA ANDRIANI S.Pd" name="JOYCE VIVA ANDRIANI S.Pd JOYCE" short="joyce@knbismart.com" gender="F" color="#669999" email="" mobile="" partner_id=""/>
+      <teacher id="C87F4155BD72C5BC" firstname="BARU PJOK" lastname="GURU" name="GURU BARU PJOK" short="T" gender="M" color="#0080FF" email="" mobile="" partner_id=""/>
+   </teachers>
+   <buildings options="canadd,export:silent" columns="id,name,partner_id"/>
+   <classrooms options="canadd,export:silent" columns="id,name,short,capacity,buildingid,partner_id">
+      <classroom id="B95B6D3A016E1768" name="01" short="01" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="EE0D6833B2A4F0B5" name="02" short="02" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="3B893A8B3ACF9FBA" name="03" short="03" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="E61083A1B74EFDB6" name="04" short="04" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="88AB035E9FD25B00" name="05" short="05" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="0114249A4DFDA373" name="06" short="06" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="FE7267854B453268" name="07" short="07" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="BF7325F72520AC41" name="08" short="08" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="E5CC9381A1BDAD7D" name="09" short="09" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="BAF1EB650DD7FFD7" name="10" short="10" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="47D62DA228736D29" name="11" short="11" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="82454DF97195322E" name="12" short="12" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="FAAEF35E34BFF35A" name="13" short="13" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="890F958B4D76B585" name="14" short="14" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="B9FE7D26D80513DD" name="15" short="15" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="4679512F5295201C" name="16" short="16" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="3153DC726A9F7C90" name="17" short="17" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="871009D382CF5E81" name="18" short="18" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="01CAFB0E264E4043" name="19" short="19" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="CC9CF1955CAF0576" name="20" short="20" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="F768F2E1C3E35AD2" name="21" short="21" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="8C478379A4E8E4B0" name="Bengkel Motor Timur" short="B-M-T" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="1F88A310AC8E00FA" name="Bengkel Casis Timur" short="B-Cs-T" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="2E937CA44F70A062" name="Bengkel Listrik Timur" short="B-L-T" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="6C5AE01658161862" name="Bengkel MOTOR Barat" short="B-M-B" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="966243ECB58C32CD" name="Bengkel CASIS Barat" short="B-Cs-B" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="E72A6401FA1C2E46" name="Bengkel LISTRIK Barat" short="B-L-B" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="B3234297C3431775" name="Bengkel BODI" short="B-BD" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="7336BB50CB59F317" name="Bengkel SPD" short="B-SPD" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="D88FAEB54F5BCA43" name="LABORATORIUM HARDWARE" short="LAB-HDW" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="5B6C0DA7F58B5738" name="LABORATORIUM JARINGAN 3" short="LAB-JAR 3" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="A7A5497828F6A84A" name="PERPUSTAKAAN" short="PERPUS" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="0D063CDCAD387F76" name="LABORATORIUM JARINGAN 2" short="LAB-JAR 2" capacity="*" buildingid="" partner_id=""/>
+      <classroom id="ED06036896177647" name="Lab Simulasi Digital" short="LSD" capacity="*" buildingid="" partner_id=""/>
+   </classrooms>
+   <grades options="canadd,export:silent" columns="grade,name,short">
+      <grade name="Grade 1" short="G 1" grade="1"/>
+      <grade name="Grade 2" short="G 2" grade="2"/>
+      <grade name="Grade 3" short="G 3" grade="3"/>
+      <grade name="Grade 4" short="G 4" grade="4"/>
+      <grade name="Grade 5" short="G 5" grade="5"/>
+      <grade name="Grade 6" short="G 6" grade="6"/>
+      <grade name="Grade 7" short="G 7" grade="7"/>
+      <grade name="Grade 8" short="G 8" grade="8"/>
+      <grade name="Grade 9" short="G 9" grade="9"/>
+      <grade name="Grade 10" short="G 10" grade="10"/>
+      <grade name="Grade 11" short="G 11" grade="11"/>
+      <grade name="Grade 12" short="G 12" grade="12"/>
+      <grade name="Grade 13" short="G 13" grade="13"/>
+      <grade name="Grade 14" short="G 14" grade="14"/>
+      <grade name="Grade 15" short="G 15" grade="15"/>
+      <grade name="Grade 16" short="G 16" grade="16"/>
+      <grade name="Grade 17" short="G 17" grade="17"/>
+      <grade name="Grade 18" short="G 18" grade="18"/>
+      <grade name="Grade 19" short="G 19" grade="19"/>
+      <grade name="Grade 20" short="G 20" grade="20"/>
+   </grades>
+   <classes options="canadd,export:silent" columns="id,name,short,classroomids,teacherid,grade,partner_id">
+      <class id="A6FF6D74C2AB62CB" name="X TKR1" short="XTKR1" teacherid="218450FB2BCF23E9" classroomids="" grade="" partner_id=""/>
+      <class id="D55A67FACFF26592" name="X TKR2" short="XTKR2" teacherid="F4A17377128282C7" classroomids="" grade="" partner_id=""/>
+      <class id="1FB2F591E6E4E6B5" name="X TKR3" short="XTKR3" teacherid="470255424C2FDF13" classroomids="" grade="" partner_id=""/>
+      <class id="97A2ABCB20F7D8F3" name="X TKR4" short="XTKR4" teacherid="EA8122546B0CEB60" classroomids="" grade="" partner_id=""/>
+      <class id="65186CCE692B8EE2" name="X TKR5" short="XTKR5" teacherid="1EA1EAFF2A4DC84B" classroomids="" grade="" partner_id=""/>
+      <class id="11E936B175446E4E" name="X TBKR" short="XTBKR" teacherid="258F8FBB0AD43748" classroomids="" grade="" partner_id=""/>
+      <class id="482DCA890EF67A97" name="X TSM1" short="XTSM1" teacherid="6E4F43D59548E6CC" classroomids="" grade="" partner_id=""/>
+      <class id="9917103237E3D35B" name="X TSM2" short="XTSM2" teacherid="CD8C367861411328" classroomids="" grade="" partner_id=""/>
+      <class id="EFD5FDA4E23D7E69" name="X TSM3" short="XTSM3" teacherid="4B870E2C66E501AB" classroomids="" grade="" partner_id=""/>
+      <class id="6D675D4A6144C886" name="X  KJ 1" short="XKJ 1" teacherid="C26BAA391A11CD6B" classroomids="" grade="" partner_id=""/>
+      <class id="7674265A744379D6" name="X  KJ 2" short="XKJ2" teacherid="134B4DDD58E834B3" classroomids="" grade="" partner_id=""/>
+      <class id="CB12751FE663F1FE" name="X  KJ 3" short="XKJ3" teacherid="93CAF4CAF22DBFEA" classroomids="" grade="" partner_id=""/>
+      <class id="8FEE42081A6B2912" name="X TTT" short="XTTT" teacherid="4F512D7915F1AAE6" classroomids="" grade="" partner_id=""/>
+      <class id="416AEEF1E9E3821F" name="X PS" short="XPS" teacherid="BBEC3F740E073349" classroomids="" grade="" partner_id=""/>
+      <class id="46808655C76D70A1" name="XI TKR1" short="XITKR1" teacherid="24F9E663F3DE4150" classroomids="" grade="" partner_id=""/>
+      <class id="06C59781E38AEE6B" name="XI TKR2" short="XITKR2" teacherid="1F2BC51B86CABF87" classroomids="" grade="" partner_id=""/>
+      <class id="CB09381561B6E2DA" name="XI TKR3" short="XITKR3" teacherid="94FDF6DCAFEFE39C" classroomids="" grade="" partner_id=""/>
+      <class id="860D9CE60754337E" name="XI TKR4" short="XITKR4" teacherid="92980234305CA994" classroomids="" grade="" partner_id=""/>
+      <class id="6E9C320EA7CB1117" name="XI TKR5" short="XITKR5" teacherid="BC422343F6F4872A" classroomids="" grade="" partner_id=""/>
+      <class id="65B64F683EB914CB" name="XI TBKR" short="XITBKR" teacherid="AEFC7FE41D5B2106" classroomids="" grade="" partner_id=""/>
+      <class id="10328E45C0225CC5" name="XI TSM1" short="XITSM1" teacherid="3276F973EBAB41C8" classroomids="" grade="" partner_id=""/>
+      <class id="385CC01A1660922B" name="XI TSM2" short="XITSM2" teacherid="57EB9D95874FCCED" classroomids="" grade="" partner_id=""/>
+      <class id="79DABB382AB37DB6" name="XI KJ 1" short="XIKJ1" teacherid="1D5CF85BAA43D595" classroomids="" grade="" partner_id=""/>
+      <class id="92E82E7D7B84C739" name="XI KJ 2" short="XIKJ2" teacherid="78CF220F163399CF" classroomids="" grade="" partner_id=""/>
+      <class id="C6FBA5740B2D90F8" name="XI TTT" short="XITTT" teacherid="63CDFBD8AEA267EE" classroomids="" grade="" partner_id=""/>
+      <class id="079B6381966EE506" name="XI PS" short="XIPS" teacherid="BF81E4A0A7773F5C" classroomids="" grade="" partner_id=""/>
+      <class id="72F8CA1573AA7701" name="XII TKR1" short="XIITKR1" teacherid="949791141EAC38E7" classroomids="" grade="" partner_id=""/>
+      <class id="D41906C1BA3ED3E8" name="XII TKR2" short="XIITKR2" teacherid="07A7679014408705" classroomids="" grade="" partner_id=""/>
+      <class id="1C29934D550E94BA" name="XII TKR3" short="XIITKR3" teacherid="32D0CE416E9465D2" classroomids="" grade="" partner_id=""/>
+      <class id="5AE74B45CC60667B" name="XII TKR4" short="XIITKR4" teacherid="EDEE9F94A7A38F07" classroomids="" grade="" partner_id=""/>
+      <class id="67124780D0206FFE" name="XII TBKR" short="XIITBKR" teacherid="FCD3789B1FB33ECA" classroomids="" grade="" partner_id=""/>
+      <class id="1F2C0F13BC6F8AC0" name="XII TSM 1" short="XIITSM1" teacherid="6B5848ED32AE4BF8" classroomids="" grade="" partner_id=""/>
+      <class id="E58847F26D8EFCAF" name="XII TSM 2" short="XIITSM2" teacherid="32CC0853EED0A9FB" classroomids="" grade="" partner_id=""/>
+      <class id="2E74C71B2DDF6D3F" name="XII KJ 1" short="XIIKJ1" teacherid="7636E0520F8B1605" classroomids="" grade="" partner_id=""/>
+      <class id="D2DE3A3F39BF5E0C" name="XII KJ 2" short="XIIKJ2" teacherid="B62732E1FA0D0415" classroomids="" grade="" partner_id=""/>
+      <class id="860D04E2BA1A0185" name="XII TTT" short="XIITTT" teacherid="CFE1B71E73A01083" classroomids="" grade="" partner_id=""/>
+      <class id="C8915EA7FFE65893" name="XII PS" short="XIIPS" teacherid="B852FAAA221662E1" classroomids="" grade="" partner_id=""/>
+   </classes>
+   <groups options="canadd,export:silent" columns="id,classid,name,entireclass,divisiontag,studentcount,studentids">
+      <group id="279D9CA5474BDF22" name="Entire class" classid="A6FF6D74C2AB62CB" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="75EB68FDBBBCB729" name="Grup 1" classid="A6FF6D74C2AB62CB" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="51B8C657028D6E71" name="Grup 2" classid="A6FF6D74C2AB62CB" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="31C95CFF02E0E864" name="Grup Laki-laki 1" classid="A6FF6D74C2AB62CB" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="1B5CE537E7F8F335" name="Perempuan" classid="A6FF6D74C2AB62CB" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="168ECA11CD239600" name="KEL 1" classid="A6FF6D74C2AB62CB" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="3D2F2FB6FDF5D6E1" name="KEL 2" classid="A6FF6D74C2AB62CB" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="43EEE44694E61907" name="Grup Laki-laki 1" classid="A6FF6D74C2AB62CB" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="4A808083D2BD112D" name="Perempuan" classid="A6FF6D74C2AB62CB" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="D6A4197F189B06B2" name="Catholic" classid="A6FF6D74C2AB62CB" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="F2D649BF7B87F482" name="Christian" classid="A6FF6D74C2AB62CB" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="BC5F08906DC4B698" name="Mandarin 1" classid="A6FF6D74C2AB62CB" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="1BFF858792B19E48" name="Mandarin 2" classid="A6FF6D74C2AB62CB" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="E583C02F6FCEE7A6" name="Entire class" classid="D55A67FACFF26592" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="71A3592AB58CDD2C" name="Grup 1" classid="D55A67FACFF26592" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="CA4DB16B4F310DFA" name="Grup 2" classid="D55A67FACFF26592" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="9EFF735F7D2F6034" name="Grup Laki-laki 1" classid="D55A67FACFF26592" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="8FA696FD7AD9D013" name="Perempuan" classid="D55A67FACFF26592" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="6FB72DA57B2D4A05" name="KEL 2" classid="D55A67FACFF26592" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="6D57E482178A9FE9" name="KEL 3" classid="D55A67FACFF26592" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="513F3E4A1FDE20A9" name="Entire class" classid="1FB2F591E6E4E6B5" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="57D4DA875DD518CF" name="Grup 1" classid="1FB2F591E6E4E6B5" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="DB18BD6BD1F4C543" name="Grup 2" classid="1FB2F591E6E4E6B5" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="673456671792BACA" name="Grup Laki-laki 1" classid="1FB2F591E6E4E6B5" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="05F15A7D2788B4B9" name="Perempuan" classid="1FB2F591E6E4E6B5" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="EF7FDA63E281CE1B" name="KEL 4" classid="1FB2F591E6E4E6B5" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="68A7F0A8B91232D2" name="KEL 5" classid="1FB2F591E6E4E6B5" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="2B1868F46ACA3249" name="Grup Laki-laki 1" classid="1FB2F591E6E4E6B5" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="1F3EB26937A27006" name="Perempuan" classid="1FB2F591E6E4E6B5" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="2FEC1B461308AFEA" name="Catholic" classid="1FB2F591E6E4E6B5" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="95067EBE1D5450D6" name="Christian" classid="1FB2F591E6E4E6B5" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="9FE592F391144BD1" name="Buddhist" classid="1FB2F591E6E4E6B5" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="E315938B1BAF9F90" name="Moslem" classid="1FB2F591E6E4E6B5" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="4F07B5CF3D60C226" name="Mandarin 1" classid="1FB2F591E6E4E6B5" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="C73EABFDE5B44C73" name="Mandarin 2" classid="1FB2F591E6E4E6B5" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="65D21BEAB1B07519" name="Entire class" classid="97A2ABCB20F7D8F3" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="C1F79A021A6273C5" name="Grup 1" classid="97A2ABCB20F7D8F3" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="B29A397702ED6AEC" name="Grup 2" classid="97A2ABCB20F7D8F3" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="4BCD1923CC59185E" name="Grup Laki-laki 1" classid="97A2ABCB20F7D8F3" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="D12FABB10857F057" name="Perempuan" classid="97A2ABCB20F7D8F3" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="6C15687DFB4E6AC2" name="KEL 5" classid="97A2ABCB20F7D8F3" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="EA63DB7D09BB64F6" name="KEL 6" classid="97A2ABCB20F7D8F3" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="4D9D79229FFF4165" name="Grup Laki-laki 1" classid="97A2ABCB20F7D8F3" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="743DDEC7D0D18247" name="Perempuan" classid="97A2ABCB20F7D8F3" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="65F65E8C1075FE5A" name="Catholic" classid="97A2ABCB20F7D8F3" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="4F84DE72CB6F17BC" name="Christian" classid="97A2ABCB20F7D8F3" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="ABAAE0B349208F1F" name="Buddhist" classid="97A2ABCB20F7D8F3" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="6E1650ACD0B99D27" name="Moslem" classid="97A2ABCB20F7D8F3" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="4F70B23B9718AFF6" name="Mandarin 1" classid="97A2ABCB20F7D8F3" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="437EA0CE5AA70449" name="Mandarin 2" classid="97A2ABCB20F7D8F3" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="CDEF5CA976FA2CD8" name="Entire class" classid="65186CCE692B8EE2" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="C644848AF42B43D7" name="Grup 1" classid="65186CCE692B8EE2" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="4BA71718302A1BCF" name="Grup 2" classid="65186CCE692B8EE2" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="3FC9E4B611E1D244" name="Grup Laki-laki 1" classid="65186CCE692B8EE2" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="6D7DE5C05B467832" name="Perempuan" classid="65186CCE692B8EE2" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="C020F66FF4335EB6" name="KEL 7" classid="65186CCE692B8EE2" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="5449ACCEDD6ABB93" name="KEL 8" classid="65186CCE692B8EE2" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="E06DC9F3384829D1" name="Grup Laki-laki 1" classid="65186CCE692B8EE2" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="C9FCCE030840BBEC" name="Perempuan" classid="65186CCE692B8EE2" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="FEFEB80428933685" name="Catholic" classid="65186CCE692B8EE2" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="C883FAFE2FAF7152" name="Christian" classid="65186CCE692B8EE2" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="4BC759B98ECFA50F" name="Mandarin 1" classid="65186CCE692B8EE2" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="AD4CE3E7E512A636" name="Mandarin 2" classid="65186CCE692B8EE2" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="0721F5FF6CCAB748" name="Entire class" classid="11E936B175446E4E" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="63437416D55CB5F3" name="Grup 1" classid="11E936B175446E4E" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="94731F2102CEA277" name="Grup 2" classid="11E936B175446E4E" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="ED1D77619C72D346" name="Grup Laki-laki 1" classid="11E936B175446E4E" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="B4BC76CD5BC2E64B" name="Perempuan" classid="11E936B175446E4E" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="0D65C6BBCB6825A8" name="KEL 11" classid="11E936B175446E4E" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="3E95F5EF0DD98AE5" name="KEL 12" classid="11E936B175446E4E" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="AD32C6CEE7EA43F8" name="Grup Laki-laki 1" classid="11E936B175446E4E" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="2913701D69237C81" name="Perempuan" classid="11E936B175446E4E" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="26B3A2D0F08159AE" name="Catholic" classid="11E936B175446E4E" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="0DD859071E66B165" name="Christian" classid="11E936B175446E4E" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="A70B38B3E7D25ED8" name="Buddhist" classid="11E936B175446E4E" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="3B33EF12D109BBB5" name="Moslem" classid="11E936B175446E4E" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="C753880E16C7B13B" name="Japanese" classid="11E936B175446E4E" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="B0E31046FBBFBC0E" name="Mandarin 1" classid="11E936B175446E4E" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="A8D798B2BB5887DF" name="Mandarin 2" classid="11E936B175446E4E" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="D9C1659A478355E7" name="KEL 9" classid="11E936B175446E4E" studentids="" entireclass="0" divisiontag="7" studentcount=""/>
+      <group id="602AD0E5CB976E45" name="KEL 10" classid="11E936B175446E4E" studentids="" entireclass="0" divisiontag="7" studentcount=""/>
+      <group id="467FC394AE7E53A9" name="Entire class" classid="482DCA890EF67A97" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="DAA879F397B5B086" name="Grup 1" classid="482DCA890EF67A97" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="CECBCBBA8E6CDFB2" name="Grup 2" classid="482DCA890EF67A97" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="6ABA361ED8A26F87" name="Grup Laki-laki 1" classid="482DCA890EF67A97" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="3ECE3A54C75EDD40" name="Perempuan" classid="482DCA890EF67A97" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="743947F4BA891BBE" name="KEL 9" classid="482DCA890EF67A97" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="05B91B0BDA4F30A2" name="KEL 10" classid="482DCA890EF67A97" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="CF3E5E05E16B6B6F" name="Grup Laki-laki 1" classid="482DCA890EF67A97" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="7F3A7B36F7E5BF0E" name="Perempuan" classid="482DCA890EF67A97" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="C840346B384ADF7A" name="Catholic" classid="482DCA890EF67A97" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="A67863C7362E49DB" name="Christian" classid="482DCA890EF67A97" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="8D9C95D44F1428DB" name="Mandarin 1" classid="482DCA890EF67A97" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="772C1E0D340C33AD" name="Mandarin 2" classid="482DCA890EF67A97" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="EE31C8B3EC348D3C" name="KEL 11" classid="482DCA890EF67A97" studentids="" entireclass="0" divisiontag="7" studentcount=""/>
+      <group id="FEE33190C7BACD20" name="KEL 12" classid="482DCA890EF67A97" studentids="" entireclass="0" divisiontag="7" studentcount=""/>
+      <group id="51E701D50730EC68" name="Entire class" classid="9917103237E3D35B" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="69E653A8B9A500F6" name="Grup 1" classid="9917103237E3D35B" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="7080740F0CBB71D3" name="Grup 2" classid="9917103237E3D35B" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="153A378D7330E936" name="Grup Laki-laki 1" classid="9917103237E3D35B" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="7697AD93FCCBB9CE" name="Perempuan" classid="9917103237E3D35B" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="5B04AFA8304CCBCB" name="KEL 11" classid="9917103237E3D35B" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="98E758124C5C80E5" name="KEL 12" classid="9917103237E3D35B" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="BFB9C296BA08C197" name="Entire class" classid="EFD5FDA4E23D7E69" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="2DB710BA669F8EAB" name="Grup 1" classid="EFD5FDA4E23D7E69" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="C1A32597BDF2B3DD" name="Grup 2" classid="EFD5FDA4E23D7E69" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="1E34F8BE15099B19" name="Grup Laki-laki 1" classid="EFD5FDA4E23D7E69" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="8E14CCA821ECA5D0" name="Perempuan" classid="EFD5FDA4E23D7E69" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="CF7C8281014A4178" name="Entire class" classid="6D675D4A6144C886" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="32B117D46D6F2C79" name="Grup 1" classid="6D675D4A6144C886" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="B441EF93CB8CEF14" name="Grup 2" classid="6D675D4A6144C886" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="DC4AF17674FEE139" name="Grup Laki-laki 1" classid="6D675D4A6144C886" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="A48B9FE10856D1E5" name="Perempuan" classid="6D675D4A6144C886" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="A1A7D708A0C7A352" name="PhysEd 1" classid="6D675D4A6144C886" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="BCE4854A78CD8ED8" name="PhysEd 2" classid="6D675D4A6144C886" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="45C74600ADF9261E" name="Grup Laki-laki 1" classid="6D675D4A6144C886" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="0F4B80A88B166F7C" name="Perempuan" classid="6D675D4A6144C886" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="AF927FE38213FAB4" name="Catholic" classid="6D675D4A6144C886" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="D632E588B2E63B96" name="Christian" classid="6D675D4A6144C886" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="D168CA629830DE60" name="Buddhist" classid="6D675D4A6144C886" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="04D33E290175ED53" name="Moslem" classid="6D675D4A6144C886" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="E4E7D4D101E96745" name="Japanese" classid="6D675D4A6144C886" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="3D8DA8E8866E1F5B" name="Mandarin 1" classid="6D675D4A6144C886" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="5E6534FC1F5FF5B1" name="Mandarin 2" classid="6D675D4A6144C886" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="F4206AA904DE5C90" name="Entire class" classid="7674265A744379D6" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="F2D27DABE335BEA6" name="Grup 1" classid="7674265A744379D6" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="DC60FD929E2ED809" name="Grup 2" classid="7674265A744379D6" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="76997AEAED09F6DE" name="Grup Laki-laki 1" classid="7674265A744379D6" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="4EE45D8D8C5F3DD9" name="Perempuan" classid="7674265A744379D6" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="66E7AF613EF35266" name="PhysEd 1" classid="7674265A744379D6" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="6D7DCFC791E9C343" name="PhysEd 2" classid="7674265A744379D6" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="4D8AEA98A71CB5EE" name="Grup Laki-laki 1" classid="7674265A744379D6" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="8F549E6FBD061FA7" name="Perempuan" classid="7674265A744379D6" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="6F61B940D2391252" name="Catholic" classid="7674265A744379D6" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="5CC6FC4795323281" name="Christian" classid="7674265A744379D6" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="50E9C9E576E9E8F5" name="Mandarin 1" classid="7674265A744379D6" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="EFA249D271C06A2C" name="Mandarin 2" classid="7674265A744379D6" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="16462B4E8DB33257" name="Entire class" classid="CB12751FE663F1FE" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="0A64F8EC6F4AE8CB" name="Grup 1" classid="CB12751FE663F1FE" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="630ECD03F3EFA0E2" name="Grup 2" classid="CB12751FE663F1FE" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="57319AA1D5A75755" name="Grup Laki-laki 1" classid="CB12751FE663F1FE" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="19A10A9B5D60655D" name="Perempuan" classid="CB12751FE663F1FE" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="0DBF541029F8A31B" name="PhysEd 1" classid="CB12751FE663F1FE" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="D748970A3134DDE9" name="PhysEd 2" classid="CB12751FE663F1FE" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="960B5C3609E72F24" name="Grup Laki-laki 1" classid="CB12751FE663F1FE" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="5F8F96DDE7047882" name="Perempuan" classid="CB12751FE663F1FE" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="16666DEFEC58BB97" name="Catholic" classid="CB12751FE663F1FE" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="DFEF2CC0DE957DAD" name="Christian" classid="CB12751FE663F1FE" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="D40DFA5EC02D3421" name="Mandarin 1" classid="CB12751FE663F1FE" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="FE809EFAE3E00317" name="Mandarin 2" classid="CB12751FE663F1FE" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="17A47A9E66F4E982" name="Entire class" classid="8FEE42081A6B2912" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="B8FD677EAB3BD1CB" name="Grup 1" classid="8FEE42081A6B2912" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="CFB6C4234EADCA0C" name="Grup 2" classid="8FEE42081A6B2912" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="D6C8BA2D5B8B3855" name="Grup Laki-laki 1" classid="8FEE42081A6B2912" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="7911A0A0A054B0CD" name="Perempuan" classid="8FEE42081A6B2912" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="2C6221EEB3FD928F" name="Entire class" classid="416AEEF1E9E3821F" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="C09134BE0F1B08F3" name="Grup 1" classid="416AEEF1E9E3821F" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="4BBE95F5120D6151" name="Grup 2" classid="416AEEF1E9E3821F" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="A987DCD3DFD8629D" name="Grup Laki-laki 1" classid="416AEEF1E9E3821F" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="482D0224F24626BB" name="Perempuan" classid="416AEEF1E9E3821F" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="8AA4BC1F3EBD7156" name="Entire class" classid="46808655C76D70A1" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="2D9946D2D17F8BDB" name="Grup 1" classid="46808655C76D70A1" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="C53DA7319EC42F4D" name="Grup 2" classid="46808655C76D70A1" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="CBCFC797F19AA02A" name="Grup Laki-laki 1" classid="46808655C76D70A1" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="C70AB4C401043464" name="Perempuan" classid="46808655C76D70A1" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="B09934AABBFD4DC6" name="KEL 1" classid="46808655C76D70A1" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="D762AA501BC9E739" name="KEL 2" classid="46808655C76D70A1" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="AB7732AF1F85CDA8" name="Entire class" classid="06C59781E38AEE6B" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="DCAADDB94D17BA2D" name="Grup 1" classid="06C59781E38AEE6B" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="6209F46F9DF60ADD" name="Grup 2" classid="06C59781E38AEE6B" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="64F661B61806CD7E" name="Grup Laki-laki 1" classid="06C59781E38AEE6B" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="5257A4BCDADFEDAE" name="Perempuan" classid="06C59781E38AEE6B" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="467A725ABC97A422" name="KEL 2" classid="06C59781E38AEE6B" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="8A1DF4567047C3C7" name="KEL 3" classid="06C59781E38AEE6B" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="9150EFCB7C28EB83" name="Grup Laki-laki 1" classid="06C59781E38AEE6B" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="5AD5AE9C6E45AD99" name="Perempuan" classid="06C59781E38AEE6B" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="174C811AB07E94AE" name="Catholic" classid="06C59781E38AEE6B" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="A79EF882A6B56377" name="Christian" classid="06C59781E38AEE6B" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="8DFCA3931424B7D1" name="Buddhist" classid="06C59781E38AEE6B" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="778BA7A2E41D49EA" name="Moslem" classid="06C59781E38AEE6B" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="687118D2A0432967" name="Japanese" classid="06C59781E38AEE6B" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="5913B84788CE208E" name="Mandarin 1" classid="06C59781E38AEE6B" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="4D3201BC55665E4B" name="Mandarin 2" classid="06C59781E38AEE6B" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="D42313978D8C4043" name="Entire class" classid="CB09381561B6E2DA" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="B4382E68A2FF32EE" name="Grup 1" classid="CB09381561B6E2DA" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="91CAA0066160B8CE" name="Grup 2" classid="CB09381561B6E2DA" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="D4807DC2D1F48551" name="Grup Laki-laki 1" classid="CB09381561B6E2DA" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="FDEA74C79E683EDE" name="Perempuan" classid="CB09381561B6E2DA" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="0C6BDD5C9636B3FB" name="KEL 4" classid="CB09381561B6E2DA" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="13017999D42DAC21" name="KEL 5" classid="CB09381561B6E2DA" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="6F22F7B13CBFAACC" name="Mandarin" classid="CB09381561B6E2DA" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="F7CB6AD5B38FD275" name="Civics/Sociology" classid="CB09381561B6E2DA" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="28FB15DFE101BEF9" name="Catholic" classid="CB09381561B6E2DA" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="165C58E6A3DADF27" name="Christian" classid="CB09381561B6E2DA" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="19494A5632EB1A81" name="Buddhist" classid="CB09381561B6E2DA" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="02DCD28F18032554" name="Moslem" classid="CB09381561B6E2DA" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="F83DFD21068E5E32" name="Entire class" classid="860D9CE60754337E" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="996046BE8E78A113" name="Grup 1" classid="860D9CE60754337E" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="089676D6365389BE" name="Grup 2" classid="860D9CE60754337E" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="FCB4C04B02EBC77B" name="Grup Laki-laki 1" classid="860D9CE60754337E" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="E20D6A17374AF90A" name="Perempuan" classid="860D9CE60754337E" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="57BE5A853EED8FE4" name="KEL 5" classid="860D9CE60754337E" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="87600A6A8537EB1F" name="KEL 6" classid="860D9CE60754337E" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="616D593833538D7A" name="Grup Laki-laki 1" classid="860D9CE60754337E" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="FFFCC924FF2FB620" name="Perempuan" classid="860D9CE60754337E" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="5C21C31352E23C14" name="Catholic" classid="860D9CE60754337E" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="E18055A08EC1140C" name="Christian" classid="860D9CE60754337E" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="E46D47101DD14F66" name="Buddhist" classid="860D9CE60754337E" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="0EE06FD556839714" name="Moslem" classid="860D9CE60754337E" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="9B0008D09C418C9A" name="Mandarin" classid="860D9CE60754337E" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="39B8049482189519" name="Civics/Sociology" classid="860D9CE60754337E" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="8B4E3D46EE2AE822" name="Entire class" classid="6E9C320EA7CB1117" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="7F6C86BBBAC325DE" name="Grup 1" classid="6E9C320EA7CB1117" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="AD2087C60427CBCE" name="Grup 2" classid="6E9C320EA7CB1117" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="8D35A297199ABE78" name="Grup Laki-laki 1" classid="6E9C320EA7CB1117" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="C329FEAAF3049753" name="Perempuan" classid="6E9C320EA7CB1117" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="B750CC48D4DC4DC8" name="KEL 7" classid="6E9C320EA7CB1117" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="DC5EB2A0096784A9" name="KEL 8" classid="6E9C320EA7CB1117" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="708BED2807BE5A3E" name="Grup Laki-laki 1" classid="6E9C320EA7CB1117" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="462E70ABF2A1D1F7" name="Perempuan" classid="6E9C320EA7CB1117" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="FA616C49B9B4FED8" name="Catholic" classid="6E9C320EA7CB1117" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="4D087CF952C1E55C" name="Christian" classid="6E9C320EA7CB1117" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="9FC4677F10ABDA56" name="Mandarin" classid="6E9C320EA7CB1117" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="400EE290F2C9ECD6" name="InfoTech1" classid="6E9C320EA7CB1117" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="299DE6A0C2C27EF1" name="Chemistry" classid="6E9C320EA7CB1117" studentids="" entireclass="0" divisiontag="7" studentcount=""/>
+      <group id="419D38747536937E" name="InfoTech2" classid="6E9C320EA7CB1117" studentids="" entireclass="0" divisiontag="7" studentcount=""/>
+      <group id="B1E96A9D8DB19242" name="Physics" classid="6E9C320EA7CB1117" studentids="" entireclass="0" divisiontag="8" studentcount=""/>
+      <group id="E31915A7BB237EC6" name="PrivateStudy1" classid="6E9C320EA7CB1117" studentids="" entireclass="0" divisiontag="8" studentcount=""/>
+      <group id="D07ADCD792FC17AD" name="Biology" classid="6E9C320EA7CB1117" studentids="" entireclass="0" divisiontag="9" studentcount=""/>
+      <group id="C4A1264C5FD4556A" name="PrivateStudy2" classid="6E9C320EA7CB1117" studentids="" entireclass="0" divisiontag="9" studentcount=""/>
+      <group id="4D75CCD9BBF16400" name="Entire class" classid="65B64F683EB914CB" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="A61BA0F140761C16" name="Grup 1" classid="65B64F683EB914CB" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="CDCCDE939E42F073" name="Grup 2" classid="65B64F683EB914CB" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="A62171B93A0A7030" name="Grup Laki-laki 1" classid="65B64F683EB914CB" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="64E436E512BCC16C" name="Perempuan" classid="65B64F683EB914CB" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="2E6D79DF19F8FC3A" name="KEL 11" classid="65B64F683EB914CB" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="DE69971030734FD9" name="KEL 12" classid="65B64F683EB914CB" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="EACC71BE79E92AA2" name="Grup Laki-laki 1" classid="65B64F683EB914CB" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="7CA017D5508E6429" name="Perempuan" classid="65B64F683EB914CB" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="D549EBECD5331C3E" name="Catholic" classid="65B64F683EB914CB" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="C96CB98AB6EAD2B3" name="Christian" classid="65B64F683EB914CB" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="F720BA95004F78A2" name="Buddhist" classid="65B64F683EB914CB" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="D8CB2D1846A9833E" name="Moslem" classid="65B64F683EB914CB" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="C231D76FC7C9183D" name="KEL 9" classid="65B64F683EB914CB" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="30F6DD1010363755" name="KEL 10" classid="65B64F683EB914CB" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="1D46FA63E4590D7F" name="Entire class" classid="10328E45C0225CC5" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="9FE8AA206F716396" name="Grup 1" classid="10328E45C0225CC5" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="C6888B9C8B442BC0" name="Grup 2" classid="10328E45C0225CC5" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="BE7A1C5A74BBE901" name="Grup Laki-laki 1" classid="10328E45C0225CC5" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="D3DA6092750ADEC3" name="Perempuan" classid="10328E45C0225CC5" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="EBD9B266277EF352" name="KEL 9" classid="10328E45C0225CC5" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="6D6581D35B7DC47D" name="KEL 10" classid="10328E45C0225CC5" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="0DAFFCE53D9BD6FC" name="Grup Laki-laki 1" classid="10328E45C0225CC5" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="D7353FDF44B811CA" name="Perempuan" classid="10328E45C0225CC5" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="CB57895411704F88" name="Catholic" classid="10328E45C0225CC5" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="50BAA00A626EA037" name="Christian" classid="10328E45C0225CC5" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="81EA4B148FE08CBB" name="Buddhist" classid="10328E45C0225CC5" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="40B08C1753B3653F" name="Moslem" classid="10328E45C0225CC5" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="68B612231204D01C" name="Mandarin" classid="10328E45C0225CC5" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="52491632E21D6236" name="InfoTech1" classid="10328E45C0225CC5" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="4D80035EF166F671" name="Chemistry" classid="10328E45C0225CC5" studentids="" entireclass="0" divisiontag="7" studentcount=""/>
+      <group id="741FE4DB0D39BE9A" name="InfoTech2" classid="10328E45C0225CC5" studentids="" entireclass="0" divisiontag="7" studentcount=""/>
+      <group id="8EEE789157A18495" name="Physics" classid="10328E45C0225CC5" studentids="" entireclass="0" divisiontag="8" studentcount=""/>
+      <group id="A44EBCC957F07A58" name="PrivateStudy1" classid="10328E45C0225CC5" studentids="" entireclass="0" divisiontag="8" studentcount=""/>
+      <group id="C529C4B3DC02D7F6" name="Biology" classid="10328E45C0225CC5" studentids="" entireclass="0" divisiontag="9" studentcount=""/>
+      <group id="C497904C9BE54572" name="PrivateStudy2" classid="10328E45C0225CC5" studentids="" entireclass="0" divisiontag="9" studentcount=""/>
+      <group id="081D0400DF37F0D8" name="Entire class" classid="385CC01A1660922B" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="D1A1C2D1D154B2EE" name="Grup 1" classid="385CC01A1660922B" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="54E5218D3074E6AB" name="Grup 2" classid="385CC01A1660922B" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="05F84921E18E41D2" name="Grup Laki-laki 1" classid="385CC01A1660922B" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="B1A27B971C58A9AE" name="Perempuan" classid="385CC01A1660922B" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="8BFA9F0FC2090DEB" name="kel 11" classid="385CC01A1660922B" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="B10D09900BB3BD84" name="kel 12" classid="385CC01A1660922B" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="659A6EAFF05F4A56" name="KEL 13" classid="385CC01A1660922B" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="806902663AC71051" name="KEL 14" classid="385CC01A1660922B" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="BB4E99445DDFC67D" name="KEL 9" classid="385CC01A1660922B" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="1E8DE76CF075DBB0" name="KEL 10" classid="385CC01A1660922B" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="F7052639BEB45AA5" name="KEL 11" classid="385CC01A1660922B" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="3BC3A61F4576B865" name="KEL 12" classid="385CC01A1660922B" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="91245CED6FF1B3B0" name="Entire class" classid="79DABB382AB37DB6" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="005A08DC02CD23A2" name="Grup 1" classid="79DABB382AB37DB6" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="FDF743E1B409F23E" name="Grup 2" classid="79DABB382AB37DB6" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="9223FA409D614F1B" name="Grup Laki-laki 1" classid="79DABB382AB37DB6" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="864243B569F98CD8" name="Perempuan" classid="79DABB382AB37DB6" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="03B4E828D27A56AA" name="PhysEd 1" classid="79DABB382AB37DB6" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="CD3E2B22D9B69177" name="PhysEd 2" classid="79DABB382AB37DB6" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="C15C7497A64ECF34" name="Grup Laki-laki 1" classid="79DABB382AB37DB6" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="D209594B6CB5965F" name="Perempuan" classid="79DABB382AB37DB6" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="4B35F3B9586573CE" name="Catholic" classid="79DABB382AB37DB6" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="09F8B8E53117C50A" name="Christian" classid="79DABB382AB37DB6" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="1995D40E95D88904" name="Buddhist" classid="79DABB382AB37DB6" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="6B278897ECCB6355" name="Moslem" classid="79DABB382AB37DB6" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="0D055D673C707E42" name="Entire class" classid="92E82E7D7B84C739" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="392F634C9ECD92E8" name="Grup 1" classid="92E82E7D7B84C739" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="D26242F96839405C" name="Grup 2" classid="92E82E7D7B84C739" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="9BE67DA1455689B9" name="Grup Laki-laki 1" classid="92E82E7D7B84C739" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="B3E6539E0CCA16FF" name="Perempuan" classid="92E82E7D7B84C739" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="09E40884E7C1E48D" name="Entire class" classid="C6FBA5740B2D90F8" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="107A28EB3AB8556A" name="Grup 1" classid="C6FBA5740B2D90F8" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="D0CAE93BFA9237EE" name="Grup 2" classid="C6FBA5740B2D90F8" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="F6CD9122EC22944E" name="Grup Laki-laki 1" classid="C6FBA5740B2D90F8" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="26734108328CEF8A" name="Perempuan" classid="C6FBA5740B2D90F8" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="7F19151FB711A7A0" name="PhysEd 1" classid="C6FBA5740B2D90F8" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="F3E59EE00AB90264" name="PhysEd 2" classid="C6FBA5740B2D90F8" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="9DB28759BC9C2D0C" name="Grup Laki-laki 1" classid="C6FBA5740B2D90F8" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="2050371647948322" name="Perempuan" classid="C6FBA5740B2D90F8" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="71E167768987E4BA" name="Catholic" classid="C6FBA5740B2D90F8" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="060AA1FE87BEBA4F" name="Christian" classid="C6FBA5740B2D90F8" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="373A4D08B530A6D4" name="Buddhist" classid="C6FBA5740B2D90F8" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="27E1F4CFC7DA8F6B" name="Moslem" classid="C6FBA5740B2D90F8" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="30B44A26C21A5BF0" name="Entire class" classid="079B6381966EE506" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="AFB34B39855C5EE8" name="Grup 1" classid="079B6381966EE506" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="ADD98288F21BAE93" name="Grup 2" classid="079B6381966EE506" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="020976FDEF1671AF" name="Grup Laki-laki 1" classid="079B6381966EE506" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="8682BC03C724F6EC" name="Perempuan" classid="079B6381966EE506" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="BF86552E951F32DD" name="Entire class" classid="72F8CA1573AA7701" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="890A8FD6723C7C3B" name="Grup 1" classid="72F8CA1573AA7701" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="A10E65D339D00980" name="Grup 2" classid="72F8CA1573AA7701" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="DC256850C1F2F688" name="Grup Laki-laki 1" classid="72F8CA1573AA7701" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="00E883FA69DDFA36" name="Perempuan" classid="72F8CA1573AA7701" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="75B50DBABD8554F9" name="KEL 1" classid="72F8CA1573AA7701" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="B1CBC26A333C0AE8" name="KEL 2" classid="72F8CA1573AA7701" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="CD1070AC0B81F66E" name="Catholic" classid="72F8CA1573AA7701" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="0F25F782D80A84CB" name="Christian" classid="72F8CA1573AA7701" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="9269DA674C2A3140" name="Buddhist" classid="72F8CA1573AA7701" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="5BEE150F29477A9D" name="Moslem" classid="72F8CA1573AA7701" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="DF31F7F39D672712" name="Chemistry" classid="72F8CA1573AA7701" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="F57DBA7924D9D90F" name="Mandarin" classid="72F8CA1573AA7701" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="F2956D77A82B31C5" name="Private Study1" classid="72F8CA1573AA7701" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="5F48F45BF8F4ADA4" name="Biology" classid="72F8CA1573AA7701" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="3F5D8B03F9682797" name="Physics" classid="72F8CA1573AA7701" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="662784D26E3439C1" name="Private Study2" classid="72F8CA1573AA7701" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="0F4A3A2436D00E0B" name="Information Technology" classid="72F8CA1573AA7701" studentids="" entireclass="0" divisiontag="7" studentcount=""/>
+      <group id="F8D93E3406C8A025" name="Private Study3" classid="72F8CA1573AA7701" studentids="" entireclass="0" divisiontag="7" studentcount=""/>
+      <group id="2ED19A47E0527900" name="Entire class" classid="D41906C1BA3ED3E8" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="76E4E16967A03B29" name="Grup 1" classid="D41906C1BA3ED3E8" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="FF89548DDE5062D2" name="Grup 2" classid="D41906C1BA3ED3E8" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="2D77A329E610785D" name="Grup Laki-laki 1" classid="D41906C1BA3ED3E8" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="170AA739B6290A78" name="Perempuan" classid="D41906C1BA3ED3E8" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="2107B83772AB2396" name="KEL 2" classid="D41906C1BA3ED3E8" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="9F562B3681181DCA" name="KEL 3" classid="D41906C1BA3ED3E8" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="9A8D18629061B203" name="Grup Laki-laki 1" classid="D41906C1BA3ED3E8" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="CBBCC36CBDD39E88" name="Perempuan" classid="D41906C1BA3ED3E8" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="13CC0A8E450160B1" name="Catholic" classid="D41906C1BA3ED3E8" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="1884E0F90F10945A" name="Christian" classid="D41906C1BA3ED3E8" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="8D516AB962B7EF1E" name="Buddhist" classid="D41906C1BA3ED3E8" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="CF17A2B98D80D18E" name="Moslem" classid="D41906C1BA3ED3E8" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="52AE504B8E80B137" name="Indonesian 1" classid="D41906C1BA3ED3E8" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="1C328AF36B9DFA95" name="Indonesian 2" classid="D41906C1BA3ED3E8" studentids="" entireclass="0" divisiontag="6" studentcount=""/>
+      <group id="9F766DD7DFBDA709" name="Entire class" classid="1C29934D550E94BA" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="00FC7C2F4B0020E9" name="Grup 1" classid="1C29934D550E94BA" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="A13EF7412CDE3369" name="Grup 2" classid="1C29934D550E94BA" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="C7E35CE65DD0744A" name="Grup Laki-laki 1" classid="1C29934D550E94BA" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="7234FF18E9578CD8" name="Perempuan" classid="1C29934D550E94BA" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="B3F6B2EFFF00F690" name="KEL 4" classid="1C29934D550E94BA" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="D90D1D7048CBA62A" name="KEL 5" classid="1C29934D550E94BA" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="795398822AC9B8AA" name="Grup Laki-laki 1" classid="1C29934D550E94BA" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="6949A3A2970BB1CD" name="Perempuan" classid="1C29934D550E94BA" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="AECF476AB492A876" name="Catholic" classid="1C29934D550E94BA" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="3BE462648537A045" name="Christian" classid="1C29934D550E94BA" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="3002ABD951CFDE01" name="Buddhist" classid="1C29934D550E94BA" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="A5AF9C47595274DB" name="Moslem" classid="1C29934D550E94BA" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="5DF516D1B636FD4E" name="Entire class" classid="5AE74B45CC60667B" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="BF7B25292179772E" name="Grup 1" classid="5AE74B45CC60667B" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="42BF080D959923A2" name="Grup 2" classid="5AE74B45CC60667B" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="CFD39EDE513EA2BA" name="Grup Laki-laki 1" classid="5AE74B45CC60667B" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="E0F904A9A0D4BF3A" name="Perempuan" classid="5AE74B45CC60667B" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="66581B5FF1B30FEA" name="KEL 7" classid="5AE74B45CC60667B" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="5A7A64D4BE6B4DA6" name="KEL 8" classid="5AE74B45CC60667B" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="F0319A81A3C9B485" name="Grup Laki-laki 1" classid="5AE74B45CC60667B" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="E453E3F67081F241" name="Perempuan" classid="5AE74B45CC60667B" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="7536708863D2A8D5" name="Entire class" classid="67124780D0206FFE" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="1734D10C997A79BC" name="Grup 1" classid="67124780D0206FFE" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="7DEB450BFAFE5CCE" name="Grup 2" classid="67124780D0206FFE" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="6779C4F2B5F77630" name="Grup Laki-laki 1" classid="67124780D0206FFE" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="5F7355B09FAF3370" name="Perempuan" classid="67124780D0206FFE" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="FE06417456ABE360" name="KEL 11" classid="67124780D0206FFE" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="8A3B09B96C453216" name="KEL 12" classid="67124780D0206FFE" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="87DFC09608C287FA" name="Grup Laki-laki 1" classid="67124780D0206FFE" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="67F0DB671E157AA5" name="Perempuan" classid="67124780D0206FFE" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="941F3903D1910263" name="KEL 9" classid="67124780D0206FFE" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="D46E1136B561E72A" name="KEL 10" classid="67124780D0206FFE" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="F57949C1C0180EC1" name="Entire class" classid="1F2C0F13BC6F8AC0" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="FCACC95FE0F8AF35" name="Grup 1" classid="1F2C0F13BC6F8AC0" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="9DCF97267DE26ACE" name="Grup 2" classid="1F2C0F13BC6F8AC0" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="8E72BAC47B6CDAAE" name="Grup Laki-laki 1" classid="1F2C0F13BC6F8AC0" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="7F5323A20D73C8BA" name="Perempuan" classid="1F2C0F13BC6F8AC0" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="AD0C2CFE80F7601A" name="KEL 9" classid="1F2C0F13BC6F8AC0" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="6D127E67A36F0A08" name="KEL 10" classid="1F2C0F13BC6F8AC0" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="56A0FE4E5E682369" name="Grup Laki-laki 1" classid="1F2C0F13BC6F8AC0" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="D9E4E132D287CFDF" name="Perempuan" classid="1F2C0F13BC6F8AC0" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="E45886348F686425" name="KEL 11" classid="1F2C0F13BC6F8AC0" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="F635223AA36307BF" name="KEL 12" classid="1F2C0F13BC6F8AC0" studentids="" entireclass="0" divisiontag="5" studentcount=""/>
+      <group id="70D820614F17973F" name="Entire class" classid="E58847F26D8EFCAF" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="641002E8D8D7D497" name="Grup 1" classid="E58847F26D8EFCAF" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="BBB5EBC935F61D9C" name="Grup 2" classid="E58847F26D8EFCAF" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="E17194BFF4029BB3" name="Grup Laki-laki 1" classid="E58847F26D8EFCAF" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="D6E02A205BABD2DA" name="Perempuan" classid="E58847F26D8EFCAF" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="1F66A98B985FA987" name="KEL 11" classid="E58847F26D8EFCAF" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="4257969450F2FF33" name="KEL 12" classid="E58847F26D8EFCAF" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="8BA41000B7E0D4C7" name="KEL 13" classid="E58847F26D8EFCAF" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="90D6F5C54EDC45B0" name="KEL 14" classid="E58847F26D8EFCAF" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="782E79356FAB5C3A" name="Entire class" classid="2E74C71B2DDF6D3F" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="F03C5F63E9048DF7" name="Grup 1" classid="2E74C71B2DDF6D3F" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="2EBC32A3C3FCA7FF" name="Grup 2" classid="2E74C71B2DDF6D3F" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="19611702EB0EBF03" name="Grup Laki-laki 1" classid="2E74C71B2DDF6D3F" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="02F41B12BB27511E" name="Perempuan" classid="2E74C71B2DDF6D3F" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="FE268415B5516C9F" name="Grup 1" classid="2E74C71B2DDF6D3F" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="24CAE9BAE643AD82" name="Grup 2" classid="2E74C71B2DDF6D3F" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="1CBBF64FBABBF20B" name="Grup Laki-laki 1" classid="2E74C71B2DDF6D3F" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="15151E31380D0909" name="Perempuan" classid="2E74C71B2DDF6D3F" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="E7BEE1F003AD4B7D" name="Entire class" classid="D2DE3A3F39BF5E0C" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="E2F8C6C9E917EE46" name="Grup 1" classid="D2DE3A3F39BF5E0C" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="0016BF074A251701" name="Grup 2" classid="D2DE3A3F39BF5E0C" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="D42F47664E00FD71" name="Grup Laki-laki 1" classid="D2DE3A3F39BF5E0C" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="E19ECFABEED5EDA5" name="Perempuan" classid="D2DE3A3F39BF5E0C" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="DE9DDD022A49CB20" name="Entire class" classid="860D04E2BA1A0185" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="8E967E5C55A39776" name="Grup 1" classid="860D04E2BA1A0185" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="952C9EC2A89A0853" name="Grup 2" classid="860D04E2BA1A0185" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="04624AB13B757847" name="Grup Laki-laki 1" classid="860D04E2BA1A0185" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="1F061DE45AB0ACEE" name="Perempuan" classid="860D04E2BA1A0185" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="649A6C0B850F543D" name="Grup 1" classid="860D04E2BA1A0185" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="CC1A723D097BD1FC" name="Grup 2" classid="860D04E2BA1A0185" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="CF0763AC988C0D54" name="Grup Laki-laki 1" classid="860D04E2BA1A0185" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="18E68FC95AD8C7CE" name="Perempuan" classid="860D04E2BA1A0185" studentids="" entireclass="0" divisiontag="4" studentcount=""/>
+      <group id="6AC3252DC9374ECF" name="Entire class" classid="C8915EA7FFE65893" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
+      <group id="66DA5BDE765980A7" name="Grup 1" classid="C8915EA7FFE65893" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="5E2F7191B95143BD" name="Grup 2" classid="C8915EA7FFE65893" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="CC858AE61D0C7383" name="Grup Laki-laki 1" classid="C8915EA7FFE65893" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="489C431D7EDF4C56" name="Perempuan" classid="C8915EA7FFE65893" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+   </groups>
+   <students options="canadd,export:silent" columns="id,classid,name,number,email,mobile,partner_id,firstname,lastname"/>
+   <studentsubjects options="canadd,export:silent" columns="studentid,subjectid,seminargroup,importance,alternatefor"/>
+   <lessons options="canadd,export:silent" columns="id,subjectid,classids,groupids,teacherids,classroomids,periodspercard,periodsperweek,daysdefid,weeksdefid,termsdefid,seminargroup,capacity,partner_id">
+      <lesson id="9CA0BB1EDFDA2D49" classids="72F8CA1573AA7701" subjectid="0F5FE7E6AE297120" periodspercard="2" periodsperweek="2.0" teacherids="3276F973EBAB41C8" classroomids="" groupids="BF86552E951F32DD" capacity="*" seminargroup="" termsdefid="7CE0416B561F04E0" weeksdefid="1473D73A7CC868CE" daysdefid="312C79A4A3569B0E" partner_id=""/>
+      <lesson id="62D771EA8128B967" classids="D41906C1BA3ED3E8" subjectid="0F5FE7E6AE297120" periodspercard="2" periodsperweek="2.0" teacherids="3276F973EBAB41C8" classroomids="" groupids="2ED19A47E0527900" capacity="*" seminargroup="" termsdefid="7CE0416B561F04E0" weeksdefid="1473D73A7CC868CE" daysdefid="312C79A4A3569B0E" partner_id=""/>
+      <lesson id="35FF8C8AFA351017" classids="1C29934D550E94BA" subjectid="0F5FE7E6AE297120" periodspercard="2" periodsperweek="2.0" teacherids="3276F973EBAB41C8" classroomids="" groupids="9F766DD7DFBDA709" capacity="*" seminargroup="" termsdefid="7CE0416B561F04E0" weeksdefid="1473D73A7CC868CE" daysdefid="312C79A4A3569B0E" partner_id=""/>
+      <lesson id="B73CD48C4EB3FD93" classids="5AE74B45CC60667B" subjectid="0F5FE7E6AE297120" periodspercard="2" periodsperweek="2.0" teacherids="3276F973EBAB41C8" classroomids="" groupids="5DF516D1B636FD4E" capacity="*" seminargroup="" termsdefid="7CE0416B561F04E0" weeksdefid="1473D73A7CC868CE" daysdefid="312C79A4A3569B0E" partner_id=""/>
+      <lesson id="0176402C44974137" classids="67124780D0206FFE" subjectid="0F5FE7E6AE297120" periodspercard="2" periodsperweek="2.0" teacherids="3276F973EBAB41C8" classroomids="" groupids="7536708863D2A8D5" capacity="*" seminargroup="" termsdefid="7CE0416B561F04E0" weeksdefid="1473D73A7CC868CE" daysdefid="312C79A4A3569B0E" partner_id=""/>
+      <lesson id="51BD6E95C1FB00AF" classids="1F2C0F13BC6F8AC0" subjectid="0F5FE7E6AE297120" periodspercard="2" periodsperweek="2.0" teacherids="3276F973EBAB41C8" classroomids="" groupids="F57949C1C0180EC1" capacity="*" seminargroup="" termsdefid="7CE0416B561F04E0" weeksdefid="1473D73A7CC868CE" daysdefid="312C79A4A3569B0E" partner_id=""/>
+      <lesson id="798238CD239E00D1" classids="E58847F26D8EFCAF" subjectid="0F5FE7E6AE297120" periodspercard="2" periodsperweek="2.0" teacherids="3276F973EBAB41C8" classroomids="" groupids="70D820614F17973F" capacity="*" seminargroup="" termsdefid="7CE0416B561F04E0" weeksdefid="1473D73A7CC868CE" daysdefid="312C79A4A3569B0E" partner_id=""/>
+      <lesson id="A4EB4265F556DA91" classids="2E74C71B2DDF6D3F" subjectid="0F5FE7E6AE297120" periodspercard="2" periodsperweek="2.0" teacherids="3276F973EBAB41C8" classroomids="" groupids="782E79356FAB5C3A" capacity="*" seminargroup="" termsdefid="7CE0416B561F04E0" weeksdefid="1473D73A7CC868CE" daysdefid="312C79A4A3569B0E" partner_id=""/>
+      <lesson id="6F53D8DE414F3CA2" classids="860D04E2BA1A0185" subjectid="0F5FE7E6AE297120" periodspercard="2" periodsperweek="2.0" teacherids="3276F973EBAB41C8" classroomids="" groupids="DE9DDD022A49CB20" capacity="*" seminargroup="" termsdefid="7CE0416B561F04E0" weeksdefid="1473D73A7CC868CE" daysdefid="312C79A4A3569B0E" partner_id=""/>
+      <lesson id="CE60A6F056EC0849" classids="D2DE3A3F39BF5E0C" subjectid="0F5FE7E6AE297120" periodspercard="2" periodsperweek="2.0" teacherids="3276F973EBAB41C8" classroomids="" groupids="E7BEE1F003AD4B7D" capacity="*" seminargroup="" termsdefid="7CE0416B561F04E0" weeksdefid="1473D73A7CC868CE" daysdefid="312C79A4A3569B0E" partner_id=""/>
+   </lessons>
+   <cards options="canadd,export:silent" columns="lessonid,period,days,weeks,terms,classroomids">
+      <card lessonid="9CA0BB1EDFDA2D49" classroomids="" period="5" weeks="1" terms="1" days="01000"/>
+      <card lessonid="9CA0BB1EDFDA2D49" classroomids="" period="6" weeks="1" terms="1" days="01000"/>
+      <card lessonid="62D771EA8128B967" classroomids="" period="7" weeks="1" terms="1" days="00100"/>
+      <card lessonid="62D771EA8128B967" classroomids="" period="8" weeks="1" terms="1" days="00100"/>
+      <card lessonid="35FF8C8AFA351017" classroomids="" period="5" weeks="1" terms="1" days="00001"/>
+      <card lessonid="35FF8C8AFA351017" classroomids="" period="6" weeks="1" terms="1" days="00001"/>
+      <card lessonid="B73CD48C4EB3FD93" classroomids="" period="3" weeks="1" terms="1" days="10000"/>
+      <card lessonid="B73CD48C4EB3FD93" classroomids="" period="4" weeks="1" terms="1" days="10000"/>
+      <card lessonid="0176402C44974137" classroomids="" period="1" weeks="1" terms="1" days="00010"/>
+      <card lessonid="0176402C44974137" classroomids="" period="2" weeks="1" terms="1" days="00010"/>
+   </cards>
+   <classroomsupervisions options="canadd,export:silent" columns="classroomid,teacherid,day,week,term,period,break"/>
+</timetable>

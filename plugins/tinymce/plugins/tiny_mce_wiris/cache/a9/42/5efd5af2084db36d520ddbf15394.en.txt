@@ -1,0 +1,1 @@
+{"result":{"text":"t equals text tahun end text cross times 12"},"status":"ok"}

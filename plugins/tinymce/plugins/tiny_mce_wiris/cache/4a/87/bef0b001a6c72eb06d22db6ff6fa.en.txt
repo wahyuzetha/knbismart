@@ -1,0 +1,1 @@
+{"result":{"text":"Q almost equal to 92 comma 31"},"status":"ok"}

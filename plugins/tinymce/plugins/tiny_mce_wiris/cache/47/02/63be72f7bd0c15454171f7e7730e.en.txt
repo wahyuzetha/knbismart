@@ -1,0 +1,1 @@
+{"result":{"text":"H a s i l space d a r i space integral subscript 0 superscript straight pi over 6 end superscript space 2 space sin space x cos space x space d x space equals space....."},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"A equals open parentheses table row 1 cell negative 1 end cell row 2 cell negative 2 end cell end table close parentheses space d a b space B equals open parentheses table row 1 1 row 4 cell negative 2 end cell end table close parentheses space m a k a space left parenthesis A plus B right parenthesis squared"},"status":"ok"}

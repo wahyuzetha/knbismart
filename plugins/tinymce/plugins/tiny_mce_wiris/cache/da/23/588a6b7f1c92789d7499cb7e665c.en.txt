@@ -1,0 +1,1 @@
+{"result":{"text":"text Nasabah end text equals left parenthesis text Pendapatan end text minus text Biaya end text right parenthesis cross times text Nisbah Nasabah end text"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"180 degree less than x less than 210 degree"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"1 half left parenthesis x squared minus 12 right parenthesis to the power of 5 plus C"},"status":"ok"}

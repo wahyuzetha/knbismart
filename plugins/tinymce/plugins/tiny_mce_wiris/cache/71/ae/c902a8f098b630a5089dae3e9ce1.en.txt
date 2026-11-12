@@ -1,0 +1,1 @@
+{"result":{"text":"begin display style E subscript s end subscript equals not stretchy vertical line fraction numerator 6 over denominator 5 end fraction not stretchy vertical line end style"},"status":"ok"}

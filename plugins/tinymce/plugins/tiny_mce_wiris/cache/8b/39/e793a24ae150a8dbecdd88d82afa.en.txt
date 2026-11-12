@@ -1,0 +1,1 @@
+{"result":{"text":"E d equals left parenthesis percent sign capital delta Q right parenthesis divided by left parenthesis percent sign capital delta P right parenthesis"},"status":"ok"}

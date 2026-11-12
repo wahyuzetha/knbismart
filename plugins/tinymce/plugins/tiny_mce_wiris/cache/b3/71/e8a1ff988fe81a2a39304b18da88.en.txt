@@ -1,0 +1,1 @@
+{"result":{"text":"display style text bold Frekuensi end text text end text text bold Harapan end text equals n cross times P not stretchy left parenthesis A not stretchy right parenthesis"},"status":"ok"}

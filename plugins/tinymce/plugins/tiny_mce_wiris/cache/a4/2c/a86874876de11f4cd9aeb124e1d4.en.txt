@@ -1,0 +1,1 @@
+{"result":{"text":"display style text Bunga end text equals 5.000.000 cross times 0 comma 12 cross times 0 comma 5 equals R p 300.000"},"status":"ok"}

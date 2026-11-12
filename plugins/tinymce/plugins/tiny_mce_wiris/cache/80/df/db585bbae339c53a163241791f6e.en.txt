@@ -1,0 +1,1 @@
+{"result":{"text":"integral left parenthesis 3 over x to the power of 5 right parenthesis d x equals space......."},"status":"ok"}

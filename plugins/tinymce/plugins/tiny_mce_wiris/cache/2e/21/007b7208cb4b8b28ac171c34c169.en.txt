@@ -1,0 +1,1 @@
+{"result":{"text":"H a s i l space d a r i space integral left parenthesis 3 x minus 1 right parenthesis left parenthesis 4 plus 2 x minus 3 x squared right parenthesis squared d x equals space......"},"status":"ok"}

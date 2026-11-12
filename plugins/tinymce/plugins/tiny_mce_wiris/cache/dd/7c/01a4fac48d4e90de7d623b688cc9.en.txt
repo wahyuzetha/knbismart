@@ -1,0 +1,1 @@
+{"result":{"text":"5 over 3 x cube root of x squared end root plus C"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"75 square root of 6"},"status":"ok"}

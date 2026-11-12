@@ -1,0 +1,1 @@
+{"result":{"text":"150.000 cross times 15 percent sign equals R p 22.500"},"status":"ok"}

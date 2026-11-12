@@ -1,0 +1,1 @@
+{"result":{"text":"t equals fraction numerator text jumlah bulan end text over denominator 12 end fraction"},"status":"ok"}

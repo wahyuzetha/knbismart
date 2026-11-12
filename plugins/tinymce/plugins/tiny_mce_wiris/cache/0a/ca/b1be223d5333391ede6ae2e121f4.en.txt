@@ -1,0 +1,1 @@
+{"result":{"text":"50.000 Q equals 40 P"},"status":"ok"}

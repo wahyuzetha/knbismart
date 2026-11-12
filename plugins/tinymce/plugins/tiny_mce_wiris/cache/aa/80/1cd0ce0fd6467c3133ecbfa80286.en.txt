@@ -1,0 +1,1 @@
+{"result":{"text":"cos space beta equals 12 over 13"},"status":"ok"}

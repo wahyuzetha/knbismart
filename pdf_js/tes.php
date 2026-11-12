@@ -1,0 +1,1 @@
+<a href="web/viewer.html?file=%m.pdf">Open yourpdf.pdf with PDF.js</a>

@@ -1,0 +1,1 @@
+{"result":{"text":"integral left parenthesis cos space x minus sin space x right parenthesis space d x space equals........"},"status":"ok"}

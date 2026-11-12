@@ -1,0 +1,35 @@
+# Turn mod_rewrite on
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteCond %{HTTPS} off
+
+# First rewrite to HTTPS:
+# Don't put www. here. If it is already there it will be included, if not
+# the subsequent rule will catch it.
+RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# Now, rewrite any request to the wrong domain to use www.
+# [NC] is a case-insensitive match
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule .* https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+<IfModule mod_security.c>
+   # Turn off mod_security filtering.
+   SecFilterEngine Off
+
+   SecFilterScanPOST Off
+</IfModule>
+
+<IfModule mod_php5.c>
+    php_value memory_limit 512M
+</IfModule>
+
+<FilesMatch ".(zip)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+<IfModule mod_php5.c>
+    php_flag allow_url_fopen Off
+    php_flag allow_url_include Off
+</IfModule>

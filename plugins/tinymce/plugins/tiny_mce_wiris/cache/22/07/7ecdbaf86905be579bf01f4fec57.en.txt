@@ -1,0 +1,1 @@
+{"result":{"text":"2 over 3 left parenthesis 4 plus 2 x minus 3 x squared right parenthesis cubed plus C"},"status":"ok"}

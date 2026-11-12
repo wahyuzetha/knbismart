@@ -1,0 +1,1 @@
+{"result":{"text":"negative 25 P plus 2.500.000 equals 50.000 Q minus 5.000.000"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"x squared space cos space x space plus space 2 space sin space x plus space 2 space cos space x space plus C"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"display style not stretchy left parenthesis 7 minus 1 not stretchy right parenthesis not stretchy factorial equals 6 not stretchy factorial equals 720 text  cara end text"},"status":"ok"}

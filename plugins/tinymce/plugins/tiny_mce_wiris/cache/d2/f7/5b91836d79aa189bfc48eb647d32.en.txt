@@ -1,0 +1,1 @@
+{"result":{"text":"negative fraction numerator 3 over denominator 5 x to the power of 5 end fraction plus C"},"status":"ok"}

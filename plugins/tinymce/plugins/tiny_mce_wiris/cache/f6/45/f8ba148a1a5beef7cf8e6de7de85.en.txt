@@ -1,0 +1,1 @@
+{"result":{"text":"cos space left parenthesis A minus B right parenthesis equals 3 over 5"},"status":"ok"}

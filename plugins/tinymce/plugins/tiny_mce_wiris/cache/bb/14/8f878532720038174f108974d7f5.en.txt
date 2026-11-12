@@ -1,0 +1,1 @@
+{"result":{"text":"display style n not stretchy factorial equals n cross times not stretchy left parenthesis n minus 1 not stretchy right parenthesis cross times not stretchy left parenthesis n minus 2 not stretchy right parenthesis cross times horizontal ellipsis cross times 2 cross times 1"},"status":"ok"}

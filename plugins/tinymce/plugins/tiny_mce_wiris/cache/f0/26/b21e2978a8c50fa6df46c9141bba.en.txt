@@ -1,0 +1,1 @@
+{"result":{"text":"cos space A equals 12 over 13"},"status":"ok"}

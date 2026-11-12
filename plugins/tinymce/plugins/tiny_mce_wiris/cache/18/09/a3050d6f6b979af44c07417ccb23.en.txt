@@ -1,0 +1,1 @@
+{"result":{"text":"begin display style straight capital delta P subscript s end subscript equals P subscript s end subscript text baru end text text end text minus P subscript s end subscript text lama end text end style"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"display style text Frekuensi harapan end text equals 200 cross times 1 half equals box enclose begin inline style begin inline style begin display style 100 end style end style end style end enclose"},"status":"ok"}

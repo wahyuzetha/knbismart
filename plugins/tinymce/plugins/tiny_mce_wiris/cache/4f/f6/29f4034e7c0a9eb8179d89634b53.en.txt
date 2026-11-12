@@ -1,0 +1,1 @@
+{"result":{"text":"cos space A. space cos space B equals 7 over 25"},"status":"ok"}

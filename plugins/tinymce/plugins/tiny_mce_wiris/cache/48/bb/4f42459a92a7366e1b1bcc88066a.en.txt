@@ -1,0 +1,1 @@
+{"result":{"text":"negative x squared space sin space x space plus 2 x space cos space x space minus space 2 sin space x space plus C"},"status":"ok"}

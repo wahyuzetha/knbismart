@@ -1,0 +1,1 @@
+{"result":{"text":"integral subscript x equals a end subscript superscript x equals b end superscript square root of 2"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"begin display style E subscript s end subscript equals not stretchy vertical line P over Q cross times fraction numerator straight partial differential Q over denominator straight partial differential P end fraction not stretchy vertical line end style"},"status":"ok"}

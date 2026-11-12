@@ -1,0 +1,1 @@
+{"result":{"text":"display style text Bunga end text equals text Pinjaman end text cross times text Bunga Tahunan end text cross times fraction numerator text Waktu end text over denominator 12 end fraction"},"status":"ok"}

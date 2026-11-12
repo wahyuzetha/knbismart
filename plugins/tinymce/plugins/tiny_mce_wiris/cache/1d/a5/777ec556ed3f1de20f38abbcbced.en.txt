@@ -1,0 +1,1 @@
+{"result":{"text":"integral subscript negative 1 end subscript superscript 1 left parenthesis 3 x plus 1 right parenthesis left parenthesis 3 x squared plus 2 x minus 2 right parenthesis squared space d x equals......"},"status":"ok"}

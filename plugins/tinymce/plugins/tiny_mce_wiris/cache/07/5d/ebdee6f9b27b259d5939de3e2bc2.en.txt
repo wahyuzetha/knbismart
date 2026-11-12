@@ -1,0 +1,1 @@
+{"result":{"text":"left parenthesis P minus 100.000 right parenthesis divided by left parenthesis 150.000 minus 100.000 right parenthesis equals left parenthesis Q minus 100 right parenthesis divided by left parenthesis 75 minus 100 right parenthesis"},"status":"ok"}

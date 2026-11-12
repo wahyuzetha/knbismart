@@ -1,0 +1,1 @@
+{"result":{"text":"left parenthesis text Harga Perolehan end text plus text Margin end text right parenthesis divided by text Jangka Waktu end text"},"status":"ok"}

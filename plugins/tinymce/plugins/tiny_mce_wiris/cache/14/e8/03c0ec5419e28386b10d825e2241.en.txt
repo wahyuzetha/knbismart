@@ -1,0 +1,1 @@
+{"result":{"text":"begin display style E subscript s end subscript equals 1 comma 2 end style"},"status":"ok"}

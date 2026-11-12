@@ -1,0 +1,808 @@
+<?xml version='1.0' encoding='utf-8'?>
+<POOL>
+	<TITLE value='Level 1 coba'/>
+	<QUESTIONLIST>
+		<QUESTION id='q1' class='QUESTION_MULTIPLECHOICE' points='1'/>
+		<QUESTION id='q2' class='QUESTION_MULTIPLECHOICE' points='1'/>
+		<QUESTION id='q3' class='QUESTION_MULTIPLECHOICE' points='1'/>
+		<QUESTION id='q4' class='QUESTION_MULTIPLECHOICE' points='1'/>
+		<QUESTION id='q5' class='QUESTION_MULTIPLECHOICE' points='1'/>
+		<QUESTION id='q6' class='QUESTION_MULTIPLECHOICE' points='1'/>
+		<QUESTION id='q7' class='QUESTION_MULTIPLECHOICE' points='1'/>
+		<QUESTION id='q8' class='QUESTION_MULTIPLECHOICE' points='1'/>
+		<QUESTION id='q9' class='QUESTION_MULTIPLECHOICE' points='1'/>
+		<QUESTION id='q10' class='QUESTION_MULTIPLECHOICE' points='1'/>
+		<QUESTION id='q11' class='QUESTION_MULTIPLEANSWER' points='1'/>
+		<QUESTION id='q12' class='QUESTION_MULTIPLEANSWER' points='1'/>
+		<QUESTION id='q13' class='QUESTION_MULTIPLEANSWER' points='1'/>
+		<QUESTION id='q14' class='QUESTION_MULTIPLEANSWER' points='1'/>
+		<QUESTION id='q15' class='QUESTION_MULTIPLEANSWER' points='1'/>
+		<QUESTION id='q16' class='QUESTION_MULTIPLEANSWER' points='1'/>
+		<QUESTION id='q17' class='QUESTION_MULTIPLEANSWER' points='1'/>
+		<QUESTION id='q18' class='QUESTION_MULTIPLEANSWER' points='1'/>
+		<QUESTION id='q19' class='QUESTION_MULTIPLEANSWER' points='1'/>
+		<QUESTION id='q20' class='QUESTION_MULTIPLEANSWER' points='1'/>
+		<QUESTION id='q21' class='QUESTION_FILLINBLANK' points='1'/>
+		<QUESTION id='q22' class='QUESTION_FILLINBLANK' points='1'/>
+		<QUESTION id='q23' class='QUESTION_FILLINBLANK' points='1'/>
+		<QUESTION id='q24' class='QUESTION_FILLINBLANK' points='1'/>
+		<QUESTION id='q25' class='QUESTION_FILLINBLANK' points='1'/>
+		<QUESTION id='q26' class='QUESTION_FILLINBLANK' points='1'/>
+		<QUESTION id='q27' class='QUESTION_FILLINBLANK' points='1'/>
+		<QUESTION id='q28' class='QUESTION_FILLINBLANK' points='1'/>
+		<QUESTION id='q29' class='QUESTION_FILLINBLANK' points='1'/>
+		<QUESTION id='q30' class='QUESTION_FILLINBLANK' points='1'/>
+		<QUESTION id='q31-40' class='QUESTION_MATCH' points='10'/>
+	</QUESTIONLIST>
+	<QUESTION_MULTIPLECHOICE id='q1'>
+		<BODY>
+			<TEXT><![CDATA[<span style="font-family:'Calibri'"><span style="font-size:10pt">Besaran di bawah ini yang semuanya merupakan besaran pokok adalah ...</span></span>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q1_a1' position='1'>
+		<TEXT><![CDATA[<span style="font-family:'Calibri'"><span style="font-size:10pt">Percepatan, kecepatan, dan massa jenis</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q1_a2' position='2'>
+		<TEXT><![CDATA[<span style="font-family:'Calibri'"><span style="font-size:10pt">Massa jenis , jarak, dan perpindahan</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q1_a3' position='3'>
+		<TEXT><![CDATA[<span style="font-family:'Calibri'"><span style="font-size:10pt">Waktu, massa , dan kecepatan</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q1_a4' position='4'>
+		<TEXT><![CDATA[<span style="font-family:'Calibri'"><span style="font-size:10pt">Massa, intensitas cahaya, dan suhu</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q1_a5' position='5'>
+		<TEXT><![CDATA[<span style="font-family:'Calibri'"><span style="font-size:10pt">Perpindahan, kecepatan, dan kuat arus</span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<CORRECTANSWER answer_id='q1_a4'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q2'>
+		<BODY>
+			<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Diantara kelompok besaran dibawah ini yang merupakan besaran pokok adalah &#8230;.</span></span>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q2_a1' position='1'>
+		<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Kuat arus, massa, panjang</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q2_a2' position='2'>
+		<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Suhu, massa, volume</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q2_a3' position='3'>
+		<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Waktu, momentum, percepatan</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q2_a4' position='4'>
+		<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Usaha, Momentum, percepatan</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q2_a5' position='5'>
+		<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Kecepatan, Suhu, Jumlah zat</span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<CORRECTANSWER answer_id='q2_a1'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q3'>
+		<BODY>
+			<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Diantara kelompok besaran di bawah ini yang merupakan besaran turunan adalah &#8230;.</span></span>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q3_a1' position='1'>
+		<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Massa, panjang, waktu</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q3_a2' position='2'>
+		<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Percepatan, kecepatan, massa jenis</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q3_a3' position='3'>
+		<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Massa jenis, kuat arus, intensitas cahaya</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q3_a4' position='4'>
+		<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Intensitas cahaya, jumlah zat, massa</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q3_a5' position='5'>
+		<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Jumlah zat, massa, kuat arus</span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<CORRECTANSWER answer_id='q3_a2'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q4'>
+		<BODY>
+			<TEXT><![CDATA[<span style="font-family:'Calibri'"><span style="font-size:10pt">Seorang anak berlari dengan kecepatan awal 10 m/s dan setelah 10 detik kecepatannya berubah menjadi 20 m/s.&nbsp; Percepatan anak tersebut adalah ...</span></span>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q4_a1' position='1'>
+		<TEXT><![CDATA[<span style="font-family:'Calibri'"><span style="font-size:10pt">0,5 m/s2</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q4_a2' position='2'>
+		<TEXT><![CDATA[<span style="font-family:'Calibri'"><span style="font-size:10pt">1,0 m/s2</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q4_a3' position='3'>
+		<TEXT><![CDATA[<span style="font-family:'Calibri'"><span style="font-size:10pt">1,5 m/s2</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q4_a4' position='4'>
+		<TEXT><![CDATA[<span style="font-family:'Calibri'"><span style="font-size:10pt">2,0 m/s2</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q4_a5' position='5'>
+		<TEXT><![CDATA[<span style="font-family:'Calibri'"><span style="font-size:10pt">2,5 m/s2</span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<CORRECTANSWER answer_id='q4_a2'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q5'>
+		<BODY>
+			<TEXT><![CDATA[Satuan waktu dalam SI adalah ....]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q5_a1' position='1'>
+		<TEXT><![CDATA[Sekon]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q5_a2' position='2'>
+		<TEXT><![CDATA[Menit]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q5_a3' position='3'>
+		<TEXT><![CDATA[Jam]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q5_a4' position='4'>
+		<TEXT><![CDATA[Mili sekon]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q5_a5' position='5'>
+		<TEXT><![CDATA[Mikro sekon]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<CORRECTANSWER answer_id='q5_a1'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q6'>
+		<BODY>
+			<TEXT><![CDATA[Di bawah ini merupakan dimensi dari kecepatan adalah ....]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q6_a1' position='1'>
+		<TEXT><![CDATA[&#091;M.L.T&#093;]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q6_a2' position='2'>
+		<TEXT><![CDATA[&#091;M.L&#093;]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q6_a3' position='3'>
+		<TEXT><![CDATA[&#091;L.T&#093;]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q6_a4' position='4'>
+		<TEXT><![CDATA[&#091;L.T<img width="12" height="19" align="bottom" alt="mc006-1.jpg" src="ppg/examview/level_1/mc006-1.jpg" border="0">&#093;]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q6_a5' position='5'>
+		<TEXT><![CDATA[&#091;L.T<img width="12" height="19" align="bottom" alt="mc006-2.jpg" src="ppg/examview/level_1/mc006-2.jpg" border="0">&#093;]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<CORRECTANSWER answer_id='q6_a4'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q7'>
+		<BODY>
+			<TEXT><![CDATA[Di bawah ini merupakan dimensi dari percepatan adalah ....]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q7_a1' position='1'>
+		<TEXT><![CDATA[&#091;M.L.T&#093;]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q7_a2' position='2'>
+		<TEXT><![CDATA[&#091;M.L&#093;]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q7_a3' position='3'>
+		<TEXT><![CDATA[&#091;L.T&#093;]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q7_a4' position='4'>
+		<TEXT><![CDATA[&#091;L.T<img width="12" height="19" align="bottom" alt="mc007-1.jpg" src="ppg/examview/level_1/mc007-1.jpg" border="0">&#093;]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q7_a5' position='5'>
+		<TEXT><![CDATA[&#091;L.T<img width="12" height="19" align="bottom" alt="mc007-2.jpg" src="ppg/examview/level_1/mc007-2.jpg" border="0">&#093;]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<CORRECTANSWER answer_id='q7_a5'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q8'>
+		<BODY>
+			<TEXT><![CDATA[Banayaknya angka penting pada angka 0,000201 adalah ....]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q8_a1' position='1'>
+		<TEXT><![CDATA[1]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q8_a2' position='2'>
+		<TEXT><![CDATA[2]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q8_a3' position='3'>
+		<TEXT><![CDATA[3]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q8_a4' position='4'>
+		<TEXT><![CDATA[4]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q8_a5' position='5'>
+		<TEXT><![CDATA[5]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<CORRECTANSWER answer_id='q8_a3'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q9'>
+		<BODY>
+			<TEXT><![CDATA[Banyaknya angka penting pada angka 0,06010 adalah ....]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q9_a1' position='1'>
+		<TEXT><![CDATA[1]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q9_a2' position='2'>
+		<TEXT><![CDATA[2]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q9_a3' position='3'>
+		<TEXT><![CDATA[3]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q9_a4' position='4'>
+		<TEXT><![CDATA[4]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q9_a5' position='5'>
+		<TEXT><![CDATA[5]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<CORRECTANSWER answer_id='q9_a4'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLECHOICE id='q10'>
+		<BODY>
+			<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Seorang anak berlari dengan kecepatan awal 10 m/s setelah itu dipercepat 1,0 m/s</span></span><span style="font-size:10pt"><span style="font-family:'Arial Narrow'"><sup>2</sup> selang waktu 10 detik kecepatan akhir&nbsp; anak tersebut adalah &#8230;.</span></span>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q10_a1' position='1'>
+		<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">10 m/s</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q10_a2' position='2'>
+		<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">15 m/s</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q10_a3' position='3'>
+		<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">20&nbsp; m/s</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q10_a4' position='4'>
+		<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">25 m/s</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q10_a5' position='5'>
+		<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">30 m/s</span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<CORRECTANSWER answer_id='q10_a3'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLECHOICE>
+	<QUESTION_MULTIPLEANSWER id='q11'>
+		<BODY>
+			<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Sebuah mobil bergerak dengan kecepatan konstan 20 m/s selama 10 detik.&nbsp; Jarak yang ditempuh oleh mobil tersebut adalah &#8230;.(Jawaban lebih dari satu)</span></span>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q11_a1' position='1'>
+		<TEXT><![CDATA[20 m]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q11_a2' position='2'>
+		<TEXT><![CDATA[40 m]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q11_a3' position='3'>
+		<TEXT><![CDATA[100 m]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q11_a4' position='4'>
+		<TEXT><![CDATA[200 m]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q11_a5' position='5'>
+		<TEXT><![CDATA[0,2 km]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<CORRECTANSWER answer_id='q11_a4'/>
+			<CORRECTANSWER answer_id='q11_a5'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLEANSWER>
+	<QUESTION_MULTIPLEANSWER id='q12'>
+		<BODY>
+			<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Perhatikan tabel berikut!<br><br>No&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Besaran&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Satuan dalam SI<br>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jumlah zat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mole<br>2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Suhu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Celcius<br>3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Waktu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sekon<br>4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Panjang&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kilometer<br>5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Massa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gram<br>Pasangan yang benar adalah ....(Jawaban lebih dari satu)<br></span></span>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q12_a1' position='1'>
+		<TEXT><![CDATA[1]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q12_a2' position='2'>
+		<TEXT><![CDATA[2]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q12_a3' position='3'>
+		<TEXT><![CDATA[3]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q12_a4' position='4'>
+		<TEXT><![CDATA[4]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q12_a5' position='5'>
+		<TEXT><![CDATA[5]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<CORRECTANSWER answer_id='q12_a1'/>
+			<CORRECTANSWER answer_id='q12_a3'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLEANSWER>
+	<QUESTION_MULTIPLEANSWER id='q13'>
+		<BODY>
+			<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Dibawah ini yang merupakan satuan besaran pokok adalah &#8230; (Jawaban lebih dari satu)</span></span>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q13_a1' position='1'>
+		<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Meter</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q13_a2' position='2'>
+		<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Kelvin</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q13_a3' position='3'>
+		<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Waktu</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q13_a4' position='4'>
+		<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Gram</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q13_a5' position='5'>
+		<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Newton</span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<CORRECTANSWER answer_id='q13_a1'/>
+			<CORRECTANSWER answer_id='q13_a2'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLEANSWER>
+	<QUESTION_MULTIPLEANSWER id='q14'>
+		<BODY>
+			<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Besaran di bawah ini yang merupakan besaran turunan adalah&nbsp; &#8230;(jawaban lebih dari satu)</span></span>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q14_a1' position='1'>
+		<TEXT><![CDATA[Percepatan]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q14_a2' position='2'>
+		<TEXT><![CDATA[Waktu]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q14_a3' position='3'>
+		<TEXT><![CDATA[Volume]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q14_a4' position='4'>
+		<TEXT><![CDATA[Masssa]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q14_a5' position='5'>
+		<TEXT><![CDATA[Kuat arus]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<CORRECTANSWER answer_id='q14_a1'/>
+			<CORRECTANSWER answer_id='q14_a3'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLEANSWER>
+	<QUESTION_MULTIPLEANSWER id='q15'>
+		<BODY>
+			<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Sebuah sepeda motor bergerak dengan kecepatan sebesar 72 km/jam,dalam waktu 5 sekon. Pernyataan yang benar adalah &#8230;.(jawaban lebih dari satu)</span></span>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q15_a1' position='1'>
+		<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Kecepatan motor 20 ms-1</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q15_a2' position='2'>
+		<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Kecepatan motor 10&nbsp; ms-1</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q15_a3' position='3'>
+		<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Kecepatan motor 5 ms-1</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q15_a4' position='4'>
+		<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Jarak yang dtempuh 100 m</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q15_a5' position='5'>
+		<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Jarak yang dtempuh 150 m</span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<CORRECTANSWER answer_id='q15_a1'/>
+			<CORRECTANSWER answer_id='q15_a4'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLEANSWER>
+	<QUESTION_MULTIPLEANSWER id='q16'>
+		<BODY>
+			<TEXT><![CDATA[<span style="font-family:'Arial Narrow'">Besaran pokok panjang dapat diturunkan menjadi &#8230; ....(Jawaban lebih dari satu)</span>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q16_a1' position='1'>
+		<TEXT><![CDATA[Luas]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q16_a2' position='2'>
+		<TEXT><![CDATA[Daya]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q16_a3' position='3'>
+		<TEXT><![CDATA[Volume]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q16_a4' position='4'>
+		<TEXT><![CDATA[Tegangan]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q16_a5' position='5'>
+		<TEXT><![CDATA[Kecepatan]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<CORRECTANSWER answer_id='q16_a1'/>
+			<CORRECTANSWER answer_id='q16_a3'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLEANSWER>
+	<QUESTION_MULTIPLEANSWER id='q17'>
+		<BODY>
+			<TEXT><![CDATA[Perhatikan gambar berikut!<br><br><img width="450" height="145" align="bottom" alt="mr007-1.jpg" src="ppg/examview/level_1/mr007-1.jpg" border="0"><br>Gambar tersebut menunjukkan hasil pengukuran diameter tabung menggunakan jangka sorong. Berdasarkan gambar tersebut hasil yang benar<br>adalah &#8230;. ....(Jawaban lebih dari satu)]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q17_a1' position='1'>
+		<TEXT><![CDATA[5,70 cm]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q17_a2' position='2'>
+		<TEXT><![CDATA[5,75 cm]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q17_a3' position='3'>
+		<TEXT><![CDATA[5,76 cm]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q17_a4' position='4'>
+		<TEXT><![CDATA[57,0 mm]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q17_a5' position='5'>
+		<TEXT><![CDATA[57,5 mm]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<CORRECTANSWER answer_id='q17_a2'/>
+			<CORRECTANSWER answer_id='q17_a5'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLEANSWER>
+	<QUESTION_MULTIPLEANSWER id='q18'>
+		<BODY>
+			<TEXT><![CDATA[Sebuah balok diukur ketebalannya dengan jangka sorong. Skala yang ditunjukkan dari hasil pengukuran tampak pada gambar. Besarnya hasil pengukuran adalah :....(Jawaban lebih dari satu)<br><img width="464" height="166" align="bottom" alt="mr008-1.jpg" src="ppg/examview/level_1/mr008-1.jpg" border="0"><br>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q18_a1' position='1'>
+		<TEXT><![CDATA[3,19 cm]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q18_a2' position='2'>
+		<TEXT><![CDATA[3,14 cm]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q18_a3' position='3'>
+		<TEXT><![CDATA[3,10 cm]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q18_a4' position='4'>
+		<TEXT><![CDATA[31,4 mm]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q18_a5' position='5'>
+		<TEXT><![CDATA[31,9 mm]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<CORRECTANSWER answer_id='q18_a1'/>
+			<CORRECTANSWER answer_id='q18_a5'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLEANSWER>
+	<QUESTION_MULTIPLEANSWER id='q19'>
+		<BODY>
+			<TEXT><![CDATA[<span style="font-family:'Calibri'"><span style="font-size:10pt">Seorang anak berlari dengan kecepatan awal 10 m/s dan setelah 10 detik kecepatannya berubah menjadi 20 m/s.Pernyataan di bawah ini yang benar adalah</span></span> ....(jawaban lebih dari satu)]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q19_a1' position='1'>
+		<TEXT><![CDATA[<span style="font-family:'Calibri'"><span style="font-size:10pt">Percepatannya 0,5 m/s2</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q19_a2' position='2'>
+		<TEXT><![CDATA[Percepatannya <span style="font-family:'Calibri'"><span style="font-size:10pt">1 m/s2</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q19_a3' position='3'>
+		<TEXT><![CDATA[Percepatannya <span style="font-family:'Calibri'"><span style="font-size:10pt">1,5 m/s2</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q19_a4' position='4'>
+		<TEXT><![CDATA[Jarak yang ditempuh 150 m]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q19_a5' position='5'>
+		<TEXT><![CDATA[Jarak yang ditempuh 200 m]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<CORRECTANSWER answer_id='q19_a2'/>
+			<CORRECTANSWER answer_id='q19_a4'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLEANSWER>
+	<QUESTION_MULTIPLEANSWER id='q20'>
+		<BODY>
+			<TEXT><![CDATA[<span style="font-family:'Calibri'"><span style="font-size:10pt">Pengemudi dihimbau memakai sabuk pengaman dengan harapan badan pengemudi tidak terbentur setir saat terjadi pengereman mendadak kejadian tersebut aplikasi dari&nbsp; ...</span></span>(jawaban lebih dari satu)]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q20_a1' position='1'>
+		<TEXT><![CDATA[<span style="font-family:'Calibri'"><span style="font-size:10pt">Hukum I Newton</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q20_a2' position='2'>
+		<TEXT><![CDATA[<span style="font-family:'Calibri'"><span style="font-size:10pt">Hukum II Newton</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q20_a3' position='3'>
+		<TEXT><![CDATA[<span style="font-family:'Calibri'"><span style="font-size:10pt">Hukum III Newton</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q20_a4' position='4'>
+		<TEXT><![CDATA[<span style="font-family:'Calibri'"><span style="font-size:10pt">Hukum Aksi dan Reaksi</span></span>]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q20_a5' position='5'>
+		<TEXT><![CDATA[<span style="font-family:'Calibri'"><span style="font-size:10pt">Hukum Kelembaman</span></span>]]></TEXT>
+		</ANSWER>
+		<GRADABLE>
+			<CORRECTANSWER answer_id='q20_a1'/>
+			<CORRECTANSWER answer_id='q20_a5'/>
+		</GRADABLE>
+	</QUESTION_MULTIPLEANSWER>
+	<QUESTION_FILLINBLANK id='q21'>
+		<BODY>
+			<TEXT><![CDATA[Sebuah benda <span style="font-family:'Arial Narrow'"><span style="font-size:10pt">dipindahkan&nbsp; sejauh 10 m, gaya yang bekerja pada benda tersebut 25 N.&nbsp; Maka besarnya usaha yang diperlukan untuk memindahkan benda tersebut adalah &#8230;. &#8230;Joule (tuliskan angkanya saja)</span></span>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q21_a1' position='1'>
+			<TEXT>250</TEXT>
+		</ANSWER>
+		<GRADABLE>
+		</GRADABLE>
+	</QUESTION_FILLINBLANK>
+	<QUESTION_FILLINBLANK id='q22'>
+		<BODY>
+			<TEXT><![CDATA[<span style="font-family:'Calibri'"><span style="font-size:10pt">Untuk memindahkan benda sejauh 10 m, gaya F melaukukan usaha 250 J.&nbsp; Besarnya gaya F adalah ....Newton (Tuliskan angkanya saja)</span></span>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q22_a1' position='1'>
+			<TEXT>250</TEXT>
+		</ANSWER>
+		<GRADABLE>
+		</GRADABLE>
+	</QUESTION_FILLINBLANK>
+	<QUESTION_FILLINBLANK id='q23'>
+		<BODY>
+			<TEXT><![CDATA[<span style="font-family:'Calibri'"><span style="font-size:10pt">Energi potensial benda bermassa 5 kg pada ketinggian 5 meter adalah .....Joule (Tuliskan angkanya saja)</span></span>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q23_a1' position='1'>
+			<TEXT>250</TEXT>
+		</ANSWER>
+		<GRADABLE>
+		</GRADABLE>
+	</QUESTION_FILLINBLANK>
+	<QUESTION_FILLINBLANK id='q24'>
+		<BODY>
+			<TEXT><![CDATA[Sebuah benda melakukan 120 kali putaran dalam waktu 1 menit, besarnya periode adalah ....sekon (Tuliskan angkanya saja)]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q24_a1' position='1'>
+			<TEXT>0,5</TEXT>
+		</ANSWER>
+		<GRADABLE>
+		</GRADABLE>
+	</QUESTION_FILLINBLANK>
+	<QUESTION_FILLINBLANK id='q25'>
+		<BODY>
+			<TEXT><![CDATA[Sebuah benda melakukan 120 kali putaran dalam waktu 1 menit, besarnya frekuensi adalah .... Hz <span style="font-family:'Arial Narrow'"><span style="font-size:10pt">(tuliskan angkanya saja)</span></span>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q25_a1' position='1'>
+			<TEXT>2</TEXT>
+		</ANSWER>
+		<GRADABLE>
+		</GRADABLE>
+	</QUESTION_FILLINBLANK>
+	<QUESTION_FILLINBLANK id='q26'>
+		<BODY>
+			<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Terdapat beberapa macam contoh besaran yaitu panjang, massa, waktu.&nbsp; Dari ketiga macam contoh&nbsp; tersebut merupakan contoh dari besaran .....</span></span>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q26_a1' position='1'>
+			<TEXT>pokok</TEXT>
+		</ANSWER>
+		<GRADABLE>
+		</GRADABLE>
+	</QUESTION_FILLINBLANK>
+	<QUESTION_FILLINBLANK id='q27'>
+		<BODY>
+			<TEXT><![CDATA[Terdapat beberapa contoh besaran yaitu massa jenis, kecepatan, percepatan.&nbsp; Dari ketiga contoh tersebut termasuk contoh besaran ....]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q27_a1' position='1'>
+			<TEXT>turunan</TEXT>
+		</ANSWER>
+		<GRADABLE>
+		</GRADABLE>
+	</QUESTION_FILLINBLANK>
+	<QUESTION_FILLINBLANK id='q28'>
+		<BODY>
+			<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Seorang anak berlari dengan kecepatan awal 15 m/s dan setelah 10 detik kecepatannya berubah menjadi 20 m/s.&nbsp; Besarnya percepatan anak tersebut adalah ....</span></span>m/s<sup>2</sup>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q28_a1' position='1'>
+			<TEXT>0,5</TEXT>
+		</ANSWER>
+		<GRADABLE>
+		</GRADABLE>
+	</QUESTION_FILLINBLANK>
+	<QUESTION_FILLINBLANK id='q29'>
+		<BODY>
+			<TEXT><![CDATA[Mobil-mobilan bermassa 2 Kg diam diatas lantai licin, kemudian diberi gaya tertentu dan bergerak dengan percepatan 10m/s2. Besarnya gaya yang diberikan pada mobil-mobilan tersebut adalah ....Newton]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q29_a1' position='1'>
+			<TEXT>20</TEXT>
+		</ANSWER>
+		<GRADABLE>
+		</GRADABLE>
+	</QUESTION_FILLINBLANK>
+	<QUESTION_FILLINBLANK id='q30'>
+		<BODY>
+			<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Sebuah benda massa 1 kg dilempar ke atas dengan kecepatan 40 m/s.&nbsp; Besarnya energi kinetik benda tersebut&nbsp; adalah .... Joule</span></span>]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q30_a1' position='1'>
+			<TEXT>800</TEXT>
+		</ANSWER>
+		<GRADABLE>
+		</GRADABLE>
+	</QUESTION_FILLINBLANK>
+	<QUESTION_MATCH id='q31-40'>
+		<BODY>
+			<TEXT><![CDATA[Jodohkanlah pernyataan di bawah ini :]]></TEXT>
+			<FLAGS>
+				<ISHTML value='true'/>
+				<ISNEWLINELITERAL value='false'/>
+			</FLAGS>
+		</BODY>
+		<ANSWER id='q31-40_a1' position='1'>
+			<TEXT><![CDATA[Contoh besaran turunan]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q31-40_a2' position='2'>
+			<TEXT><![CDATA[Bunyi hukum I Newton]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q31-40_a3' position='3'>
+			<TEXT><![CDATA[Bunyi hukum II Newton]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q31-40_a4' position='4'>
+			<TEXT><![CDATA[Waktu yang diperlukan untuk melakukan satu kali putaran]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q31-40_a5' position='5'>
+			<TEXT><![CDATA[Bunyi hukum III Newton]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q31-40_a6' position='6'>
+			<TEXT><![CDATA[Banyaknya putaran yang terjadi dalam waktu satu detik]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q31-40_a7' position='7'>
+			<TEXT><![CDATA[Contoh besaran pokok]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q31-40_a8' position='8'>
+			<TEXT><![CDATA[Satuan dari besaran turunan]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q31-40_a9' position='9'>
+			<TEXT><![CDATA[Satuan dari besaran pokok]]></TEXT>
+		</ANSWER>
+		<ANSWER id='q31-40_a10' position='10'>
+			<TEXT><![CDATA[contoh perubahan energi listrik menjadi energi panas]]></TEXT>
+		</ANSWER>
+		<CHOICE id='q31-40_c1' position='1'>
+			<TEXT><![CDATA[Massa, waktu, panjang]]></TEXT>
+		</CHOICE>
+		<CHOICE id='q31-40_c2' position='2'>
+			<TEXT><![CDATA[Luas, Volume, percepatan]]></TEXT>
+		</CHOICE>
+		<CHOICE id='q31-40_c3' position='3'>
+			<TEXT><![CDATA[Frekunsi]]></TEXT>
+		</CHOICE>
+		<CHOICE id='q31-40_c4' position='4'>
+			<TEXT><![CDATA[Periode]]></TEXT>
+		</CHOICE>
+		<CHOICE id='q31-40_c5' position='5'>
+			<TEXT><![CDATA[<span style="font-family:'Arial Narrow'"><span style="font-size:10pt">Setiap benda akan selalu mempertahankan kedudukannya</span></span>]]></TEXT>
+		</CHOICE>
+		<CHOICE id='q31-40_c6' position='6'>
+			<TEXT><![CDATA[Jika benda I mengerahkan gaya aksi kepada benda II, maka benda II akan memberikan gaya reaksi pada benda I yang sama besar namun berlawanan arah]]></TEXT>
+		</CHOICE>
+		<CHOICE id='q31-40_c7' position='7'>
+			<TEXT><![CDATA[Besar percepatan sebuah benda berbanding lurus dengan besarnya gaya yang bekerja pada benda dan berbanding terbalik dengan massa benda]]></TEXT>
+		</CHOICE>
+		<CHOICE id='q31-40_c8' position='8'>
+			<TEXT><![CDATA[Seterika listrik,solder,kompor listrik]]></TEXT>
+		</CHOICE>
+		<CHOICE id='q31-40_c9' position='9'>
+			<TEXT><![CDATA[Kilogram, sekon, meter]]></TEXT>
+		</CHOICE>
+		<CHOICE id='q31-40_c10' position='10'>
+			<TEXT><![CDATA[Newton, Pascall, Joule]]></TEXT>
+		</CHOICE>
+		<GRADABLE>
+			<CORRECTANSWER answer_id='q31-40_a1' choice_id='q31-40_c2'/>
+			<CORRECTANSWER answer_id='q31-40_a2' choice_id='q31-40_c5'/>
+			<CORRECTANSWER answer_id='q31-40_a3' choice_id='q31-40_c7'/>
+			<CORRECTANSWER answer_id='q31-40_a4' choice_id='q31-40_c4'/>
+			<CORRECTANSWER answer_id='q31-40_a5' choice_id='q31-40_c6'/>
+			<CORRECTANSWER answer_id='q31-40_a6' choice_id='q31-40_c3'/>
+			<CORRECTANSWER answer_id='q31-40_a7' choice_id='q31-40_c1'/>
+			<CORRECTANSWER answer_id='q31-40_a8' choice_id='q31-40_c10'/>
+			<CORRECTANSWER answer_id='q31-40_a9' choice_id='q31-40_c9'/>
+			<CORRECTANSWER answer_id='q31-40_a10' choice_id='q31-40_c8'/>
+		</GRADABLE>
+	</QUESTION_MATCH>
+</POOL>

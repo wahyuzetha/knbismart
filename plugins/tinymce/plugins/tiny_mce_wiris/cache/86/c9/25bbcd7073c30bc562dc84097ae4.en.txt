@@ -1,0 +1,1 @@
+{"result":{"text":"H a s i l space integral x left parenthesis X squared minus 12 right parenthesis to the power of 4 d x space a d a l a h space......."},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"integral subscript negative 1 end subscript superscript 2 open parentheses 2 x minus 3 close parentheses space d x space equals space......"},"status":"ok"}

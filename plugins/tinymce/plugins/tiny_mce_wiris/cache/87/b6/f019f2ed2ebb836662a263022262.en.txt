@@ -1,0 +1,1 @@
+{"result":{"text":"sin squared 30 degree plus sin squared 40 degree plus sin squared 50 degree plus sin squared 60 degree"},"status":"ok"}

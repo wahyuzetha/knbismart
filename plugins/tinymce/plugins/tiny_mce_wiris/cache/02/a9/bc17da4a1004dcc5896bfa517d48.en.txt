@@ -1,0 +1,1 @@
+{"result":{"text":"fraction numerator sin space 150 degree plus sin space 120 degree over denominator cos space 210 degree minus cos space 30 degree end fraction"},"status":"ok"}

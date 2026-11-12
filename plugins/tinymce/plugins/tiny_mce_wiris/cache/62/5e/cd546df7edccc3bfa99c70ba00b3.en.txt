@@ -1,0 +1,1 @@
+{"result":{"text":"1 third x squared space sin space 2 x space plus space C"},"status":"ok"}

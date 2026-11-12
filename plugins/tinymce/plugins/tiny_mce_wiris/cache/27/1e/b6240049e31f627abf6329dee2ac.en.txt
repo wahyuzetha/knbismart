@@ -1,0 +1,1 @@
+{"result":{"text":"square root of 2 p q end root equals space sin space A"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"A equals open parentheses table row 4 2 row x 1 end table close parentheses comma space B equals open parentheses table row cell negative x end cell cell negative 1 end cell row 3 y end table close parentheses comma space d a n space C equals open parentheses table row 10 7 row cell negative 9 end cell 2 end table close parentheses"},"status":"ok"}

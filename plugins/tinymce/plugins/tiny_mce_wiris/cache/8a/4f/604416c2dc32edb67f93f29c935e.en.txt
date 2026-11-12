@@ -1,0 +1,1 @@
+{"result":{"text":"blank to the power of 7 log space 28 space minus to the power of 7 log space space 4 space plus to the power of 7 log space 35 space minus to the power of 7 log space 5"},"status":"ok"}

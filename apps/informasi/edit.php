@@ -1,0 +1,435 @@
+﻿<?php 
+session_start();
+include "../../inc/koneksi.php";
+include "../../inc/aman.php";
+function anti_injection($data){
+  $filter = mysql_real_escape_string(stripslashes(strip_tags(htmlspecialchars($data,ENT_QUOTES))));
+  return $filter;
+}
+$id = anti_injection($_GET['d']);
+$m=mysql_query("select  * from berita where id='$id'");
+$d=mysql_fetch_array($m);
+
+?>
+<!DOCTYPE html>
+<html>
+
+<head>
+<?php include"../../inc/meta.php"; ?>
+
+  <script src="../../js/jquery-1.11.2.min.js"></script>
+
+</head>
+<script src='../../plugins/tinymce/tinymce.min.js'></script>
+
+
+ <script>
+  tinymce.init({
+  selector: 'textarea',
+  themes: 'modern',
+  height: 200,
+  plugins: "image media",
+  image_class_list: [
+    {title: 'Responsive', value: 'img-responsive'}
+],
+  toolbar: 'underline bold italic sizeselect fontselect fontsizeselect | hr alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | insertfile undo redo | forecolor backcolor emoticons | code',
+    fontsize_formats: "8pt 10pt 12pt 14pt 18pt 24pt 36pt",
+  file_picker_callback: function(callback, value, meta) {
+    // File type
+    if (meta.filetype =="media" || meta.filetype =="image") {
+
+      // Trigger click on file element
+      jQuery("#fileupload").trigger("click");
+      $("#fileupload").unbind('change');
+      // File selection
+      jQuery("#fileupload").on("change", function() {
+         var file = this.files[0];
+         var reader = new FileReader();
+		                
+         // FormData
+         var fd = new FormData();
+         var files = file;
+         fd.append("file",files);
+         fd.append('filetype',meta.filetype);
+         var filename = "";
+		                
+         // AJAX
+	 jQuery.ajax({
+            url: "uploadimage.php",
+	    type: "post",
+	    data: fd,
+	    contentType: false,
+	    processData: false,
+	    async: false,
+	    success: function(response){
+	       filename = response;
+            }
+         });
+		             
+	 reader.onload = function(e) {
+            callback("../../../images/"+filename);
+	 };
+         reader.readAsDataURL(file);
+       });
+     }
+		        
+   }
+ 
+  
+
+});
+  
+  </script>
+  <script>
+	//  for drag and drop file access
+	jQuery.event.props.push('dataTransfer');
+
+	$(function(){
+		var dropTimer;
+		var dropTarget = $('.dragArea');
+		var fileInput = $('#imageFile');
+
+		dropTarget.on("dragover", function(event) {
+			clearTimeout(dropTimer);
+			if (event.currentTarget == dropTarget[0]) {
+				dropTarget.addClass('over');
+			}
+
+			return false; //  for drop to work
+		});
+
+		dropTarget.on('dragleave', function(event) {
+			if (event.currentTarget == dropTarget[0]) {
+				dropTimer = setTimeout(function() {
+					dropTarget.removeClass('over');
+				}, 300);
+			}
+		});
+
+		handleDrop = function(files){
+			dropTarget.removeClass('over');
+
+			var file = files[0]; // Multiple files can be dropped. Lets only deal with the "first" one.
+
+			if (file.type.match('image.*')) {
+				resizeImage(file, 500, function(result) {
+					$('#resultImage').attr('src', result);
+                   document.getElementById("myText").value = result;
+                   
+					$('.resultImageWrapper').show();
+				});
+			} else {
+				alert("That file wasn't an image.");
+			}
+		};
+
+		dropTarget.on('drop', function(event) {
+			event.preventDefault(); // Or else the browser will open the file
+			handleDrop(event.dataTransfer.files);
+		});
+
+		fileInput.on('change', function(event) {
+			handleDrop(event.target.files);
+		});
+
+		resizeImage = function(file, size, callback) {
+			var fileTracker = new FileReader;
+			fileTracker.onload = function() {
+				var image = new Image();
+				image.onload = function(){
+					var canvas = document.createElement("canvas");
+					/*
+					if(image.height > size) {
+						image.width *= size / image.height;
+						image.height = size;
+					}
+					*/
+					if(image.width > size) {
+						image.height *= size / image.width;
+						image.width = size;
+					}
+					var ctx = canvas.getContext("2d");
+                    
+					ctx.clearRect(0, 0, canvas.width, canvas.height);
+					canvas.width = image.width;
+					canvas.height = image.height;
+					ctx.drawImage(image, 0, 0, image.width, image.height);
+					callback(canvas.toDataURL("image/png"));
+				};
+				image.src = this.result;
+			}
+
+			fileTracker.readAsDataURL(file);
+
+			fileTracker.onabort = function() {
+				alert("The upload was aborted.");
+			}
+
+			fileTracker.onerror = function() {
+				alert("An error occured while reading the file.");
+			}
+		};
+	});
+</script>
+<style>
+		 
+
+		.dragArea {
+			background-color: #efefef;
+			border: 3px dashed #cccccc;
+			border-radius: 10px;
+			text-align: center;
+			padding: 50px;
+		}
+    .dragArea2 {
+			background-color: #fff;
+			border: 3px dashed #cccccc;
+			border-radius: 10px;
+			text-align: left;
+			}
+
+		.dragArea.over {
+			border-color: #ff0000;
+			background-color: #FFE9EA;
+		}
+
+		.resultImageWrapper {
+			display: none;
+			margin-top: 50px;
+			text-align: center;
+		}
+
+		#resultImage {
+			box-shadow: rgba(0,0,0,0.4) 0 2px 5px;
+		}
+    .select-wrapper {
+  background: url(../../css/camera.png) no-repeat;
+  background-size: cover;
+  display: block;
+  position: relative;
+  width: 80px;
+  height: 74px;
+      margin-left: 45%;
+      margin-right: 50%;
+
+}
+#imageFile {
+  width: 80px;
+  height: 61px;
+  margin-right: 100px;
+  opacity: 0;
+  filter: alpha(opacity=0); /* IE 5-7 */
+}
+
+#frameWrap {
+    position:relative;
+    height: 360px;
+    width: 100%;
+    border: 1px solid #777777;
+    background:#f0f0f0;
+    box-shadow:0px 0px 10px #777777;
+}
+
+#iframe1 {
+    height: 360px;
+    width: 100%;
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+
+</style>
+
+<?php include"../../inc/nav.php";?>
+
+    <!-- #Top Bar -->
+    <section>
+        <!-- Left Sidebar -->
+<?php include"../../inc/sidebar.php";?>    
+        <!-- #END# Left Sidebar -->
+        <!-- Right Sidebar -->
+    
+    <section class="content">
+     <div class="container-fluid">
+           <div class="row clearfix">
+                <div class="col-md-12">
+                    <div class="card">
+                      
+                        <div class="header">
+                            <h2>Edit Data </h2>
+                            
+                        </div>
+                 <?php
+    if($_GET[h]=="sukses"){ ?>    
+    <div class="alert alert-success" id="success-alert">
+    <button type="button" class="close" data-dismiss="alert">x</button>
+    <strong>Success! </strong> Data Berhasil Di Simpan</div>
+    <?php } 
+    else  if($_GET[h]=="suksesh"){ ?>   
+     <div class="alert alert-success" id="success-alert">
+    <button type="button" class="close" data-dismiss="alert">x</button>
+    <strong>Success! </strong> Data Berhasil Di Hapus</div>
+    <?php
+        }
+        else {
+        echo"";
+        }
+    ?>    
+    
+          <div class="body">
+         <form method="POST" action="saveedit" enctype="multipart/form-data">
+           
+     
+            <input type='hidden' class='form-control judul'  aria-required='true' name='jfile_lama'  value='<?php echo"$d[jfile]";?>' required>
+           
+            <input type='hidden' class='form-control judul'  aria-required='true' name='foto_lama'  value='<?php echo"$d[foto]";?>' required>
+             <input type='hidden' class='form-control judul'  aria-required='true' name='d'  value='<?php echo"$d[id]";?>' required>
+       
+          
+          
+              <div class="form-group form-float">
+            <label class="form-label">Jenis Informasi</label>
+            <br>
+            <div class="form-line">
+            <select class="form-control show-tick" name="kategori">
+            <option value="">-- Pilih --</option>
+            <?php
+            $mp2=mysql_query("select * from kategori");
+            while($dp2=mysql_fetch_array($mp2)){ 
+			if($d[kategori]==$dp2[id]){
+			$pil="selected";
+			}
+			else {
+			$pil="";
+			}
+            ?>      
+          <option value="<?php echo"$dp2[id]";?>" <?php echo"$pil";?>><?php echo"$dp2[kategori]";?></option>
+
+              <?php } ?>    
+              </select>
+                                
+            </div>
+            </div>
+			
+			
+            <div class='form-group form-float'>
+             <label class='form-label'>Judul </label>
+           
+            <div class='form-line '>
+             <input type='text' class='form-control'  aria-required='true' name='judul'  value='<?php echo"$d[judul]";?>'>
+            
+
+            </div>
+            </div>
+			
+			 <div class="form-group">
+                   <label class="form-label">Informasi </label>
+          
+            <div class="form-line ">
+         <textarea name="isi"><?php echo"$d[isi]";?></textarea>
+         <input type='file' name='fileupload' id='fileupload' style='display: none;'>
+
+    </div></div>
+	
+			<div class='form-group form-float'>
+             <label class='form-label'>Upload File</label>
+           <br>
+		   <?php
+		   if(!empty($d[jfile])){
+		   echo"<a href='../../file/$d[jfile]' target='_NEW'>Download File</a>";
+		   }
+		   ?>
+            <div class='form-line '>
+             <input type='file' class='form-control'  aria-required='true' name='jfile'>
+            
+
+            </div>
+            </div>
+          <input type="checkbox" id="basic_checkbox_3v" class="filled-in" value='1' name='tampilkan_android'  
+<?php if($d[status]==1){ echo"checked";}?>>
+						<label for="basic_checkbox_3v">Publish Berita</label>
+     
+            <br>
+            <label class='form-label'>Thumbnail Foto </label><br>
+		  <?php
+		   if(!empty($d[foto])){
+		   echo"<img src='../../images/$d[foto]' height='100px'>";
+		   }
+		   ?>
+		    <div class="dragArea">
+         <div>
+            <span class="select-wrapper">
+  
+    <input type="file" id="imageFile" accept="image/*"/> </span>
+        <div class="resultImageWrapper">
+   
+     <img src="" alt="" id="resultImage" width="200" />
+  
+    <input type="hidden" id="myText" value="" name="img" >
+      
+      
+</div>
+  </div>
+</div>
+ <br>
+          <a class="k" href="send_notif?d=<?php echo"$d[id]";?>"  target="my_iframe"> <button  class="btn btn-warning waves-effect" type="button"><i class="material-icons">mail</i>Send Notif</button>
+</a>
+            <button class="btn btn-primary waves-effect" type="submit" id="submit" onclick="return validate();"><i class="material-icons">save</i> SIMPAN</button>
+          <a href="data"> <button  class="btn btn-success waves-effect" type="button"><i class="material-icons">arrow_back</i>Kembali</button>
+            
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+            <img id="loader1" src="loading.gif" width="106"  alt="loading.gif"/>              
+
+			<div id="progressbar" style="border:1px solid #ccc; border-radius: 5px; "></div>
+
+  
+		<!-- Progress information -->
+		<br>
+		<div id="information"></div>
+
+
+			<iframe id="loadarea" name="my_iframe"  style="display:none;"></iframe><br />
+
+        </div>   
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </section>
+
+<script>
+ 
+ 
+    $(document).ready(function () {
+         $('#loader1').hide();
+        $( ".k" ).click(function() {
+
+                      $('#loader1').show();
+
+		document.getElementById('loadarea').src = 'send_notif.php';
+ 
+          //iframe.contentWindow.document.close();
+          
+            });
+        $('#loadarea').on('load', function () {
+            $('#loader1').hide();
+        });
+    });
+	
+
+ 
+ window.setTimeout(function() {
+    $(".alert").fadeTo(500, 0).slideUp(500, function(){
+        $(this).remove(); 
+    });
+}, 5000);
+//# sourceURL=pen.js
+</script>
+ 
+   <?php include"../../inc/footerm.php";?></body>
+
+
+</body>

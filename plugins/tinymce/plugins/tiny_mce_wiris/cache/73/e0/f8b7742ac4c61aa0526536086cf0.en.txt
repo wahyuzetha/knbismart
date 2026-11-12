@@ -1,0 +1,1 @@
+{"result":{"text":"negative sin space x space plus space cos space x space plus C"},"status":"ok"}

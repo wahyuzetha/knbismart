@@ -1,0 +1,1 @@
+{"result":{"text":"H a s i l space integral 6 x squared square root of 5 minus x cubed end root d x equals space......."},"status":"ok"}

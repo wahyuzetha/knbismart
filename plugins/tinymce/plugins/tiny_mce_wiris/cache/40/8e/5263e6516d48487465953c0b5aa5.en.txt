@@ -1,0 +1,1 @@
+{"result":{"text":"display style A equals P plus B equals P not stretchy left parenthesis 1 plus i cross times t not stretchy right parenthesis"},"status":"ok"}

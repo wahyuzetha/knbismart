@@ -1,0 +1,1 @@
+{"result":{"text":"text FDR end text equals fraction numerator text Total Pembiayaan end text over denominator text Total DPK end text end fraction cross times 100 percent sign equals 10 over 12 cross times 100 percent sign equals 83 comma 3 percent sign"},"status":"ok"}

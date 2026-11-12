@@ -1,0 +1,1 @@
+{"result":{"text":"Q equals 150 minus 57 comma 69"},"status":"ok"}

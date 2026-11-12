@@ -1,0 +1,1 @@
+{"result":{"text":"50.000 Q equals 7.500.000 minus 25 P"},"status":"ok"}

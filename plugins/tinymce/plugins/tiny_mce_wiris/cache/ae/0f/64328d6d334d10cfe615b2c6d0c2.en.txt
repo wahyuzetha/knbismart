@@ -1,0 +1,1 @@
+{"result":{"text":"display style P not stretchy left parenthesis g e n a p not stretchy right parenthesis equals 3 over 6 equals 1 half"},"status":"ok"}

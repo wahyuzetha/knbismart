@@ -1,0 +1,1 @@
+{"result":{"text":"display style U subscript 10 equals 4 plus not stretchy left parenthesis 10 minus 1 not stretchy right parenthesis times 3 equals 4 plus 9 times 3 equals 4 plus 27 equals 31"},"status":"ok"}

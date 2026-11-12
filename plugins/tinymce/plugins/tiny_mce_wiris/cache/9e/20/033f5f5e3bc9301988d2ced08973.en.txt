@@ -1,0 +1,1 @@
+{"result":{"text":"open parentheses x squared over 2 minus 1 fourth close parentheses space sin space 2 x space plus x over 2 cos space 2 x space plus C"},"status":"ok"}

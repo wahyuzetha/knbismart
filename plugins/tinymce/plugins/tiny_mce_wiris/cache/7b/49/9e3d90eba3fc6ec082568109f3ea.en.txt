@@ -1,0 +1,1 @@
+{"result":{"text":"angle B A C equals 60 degree"},"status":"ok"}

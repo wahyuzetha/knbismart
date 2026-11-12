@@ -1,0 +1,1 @@
+{"result":{"text":"text Harga Jual end text equals text Harga Perolehan end text plus text Margin Keuntungan end text"},"status":"ok"}

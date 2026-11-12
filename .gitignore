@@ -1,0 +1,16 @@
+# Archives and database dumps
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.sql
+*.log
+
+# Large legacy IE fallback font bitmaps (29,000 files)
+MathJax-2.7.3/fonts/HTML-CSS/TeX/png/
+
+# Temporary / OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,1 @@
+{"result":{"text":"p equals 2 space d a n space q equals negative 2"},"status":"ok"}
